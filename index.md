@@ -5,6 +5,14 @@ layout: default
 
 # Spis treści
 
+## FAQ
+- [1. FAQ (<strong>autor:  Piątek</strong>)](/swiat/rasy.md)
+- [2. Karta Postaci Daggerheart (<strong>autor: Michał, Piątek</strong>)](/swiat/rasy.md)
+- [3. Karta Pomocy Daggerheart (<strong>autor: Michał, Piątek</strong>)](/swiat/rasy.md)
+- [4. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/swiat/rasy.md)
+- [5. Dysk Google (<strong>autor:  Piątek</strong>)](/swiat/rasy.md)
+- [6. FAQ tworzenia plików .md (<strong>autor:  Macieja</strong>)](/swiat/rasy.md)
+
 ## Świat
 - [Główny Panteon Bogów (<strong>autor:  Piątek</strong>)](/swiat/glowny_panteon_bogow.md)
 - [Klasy Daggerheart Fabularne (<strong>autor:  Piątek</strong>)](/swiat/klasy_daggerheart_fabularne.md)
@@ -42,7 +50,7 @@ layout: default
 - [Wolny Ląd (<strong>autor:  Piątek</strong>)](/krainy/wolny_lad.md)
 
 ## Bohaterowie Gracze
-- [1 (<strong>autor:  Michal</strong>)](/bg/michal/postac.md)
+- [1 (<strong>autor:  Michał</strong>)](/bg/michal/postac.md)
 - [2 (<strong>autor:  Macieja</strong>)](/bg/macieja/postac.md)
 - [3 (<strong>autor:  Tomek</strong>)](/bg/tomek/postac.md)
 - [4 (<strong>autor:  Krystian</strong>)](/bg/krystian/postac.md)

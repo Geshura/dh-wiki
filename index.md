@@ -5,13 +5,13 @@ layout: default
 
 # Spis treści
 
-## Lore Świata
-- [Główny Panteon Bogów](/swiat/glowny_panteon_bogow.md)
+## Świat
+- [Główny Panteon Bogów (<strong>autor: Geshura</strong>)](/swiat/glowny_panteon_bogow.md)
 - [Klasy Daggerheart Fabularne](/swiat/klasy_daggerheart_fabularne.md)
 - [Ogólne Lore Świata](/swiat/ogolne_swiat.md)
 - [Rasy](/swiat/rasy.md)
 
-## Lore Kontynentu
+## Kontynent
 - [Consilium Arcanum](/kontynent/consilium_arcanum.md)
 - [Pierwsza Wojna Magiczna](/kontynent/pierwsza_wojna_magiczna.md)
 - [Semid](/kontynent/semid.md)
@@ -39,3 +39,5 @@ layout: default
 - [Step Perang](/krainy/step_perang.md)
 - [Tsuulim](/krainy/tsuulim.md)
 - [Wolny Ląd](/krainy/wolny_lad.md)
+
+##

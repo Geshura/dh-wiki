@@ -1,1 +1,15 @@
-theme: minima
+# Włączamy brak motywu, bo zrobimy własny
+theme: null
+
+# Wskazujemy folder z layoutami
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Włączamy przydatne wtyczki (opcjonalnie)
+plugins:
+  - jekyll-feed

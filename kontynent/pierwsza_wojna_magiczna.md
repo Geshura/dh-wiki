@@ -1,5 +1,11 @@
-# Kroniki Wielkiego Kontynentu
+---
+title: Pierwsza Wojna Magiczna
+layout: default
+---
 
+# Pierwsza Wojna Magiczna
+
+# Kroniki Wielkiego Kontynentu
 
 
 # Geografia Kontynentu
@@ -904,5 +910,7 @@ Era Cedrika dobiegła końca, lecz legenda o Pierwszym Magu przetrwała, ostrzeg
 
 
 • Zakon Równowagi – organizacja kontrolująca użycie magii
+
+[⬅️ Wróć do spisu treści](../index.md)
 
 

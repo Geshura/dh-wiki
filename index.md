@@ -12,7 +12,7 @@ layout: default
 - [Główny Panteon Bogów](/swiat/glowny_panteon_bogow.md)
 
 ## Lore Kontynentu
-- [Semid_Daggerheart](/kontynent/semid_daggerheart.md)
+- [Semid Daggerheart](/kontynent/semid_daggerheart.md)
 - [Zwierzch Boskiej Krwi](/kontynent/zwierzch_boskiej_krwi.md)
 - [Solmera](/kontynent/solmera.md)
 - [Consilium Arcanum](/kontynent/consilium_arcanum.md)

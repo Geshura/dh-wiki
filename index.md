@@ -5,9 +5,6 @@ layout: default
 
 # Spis treści
 
-<div style="display:flex; gap:2em;">
-
-<div>
 ## Lore Świata
 - [Główny Panteon Bogów](/swiat/glowny_panteon_bogow.md)
 - [Klasy Daggerheart Fabularne](/swiat/klasy_daggerheart_fabularne.md)
@@ -19,9 +16,7 @@ layout: default
 - [Semid Daggerheart](/kontynent/semid_daggerheart.md)
 - [Solmera](/kontynent/solmera.md)
 - [Zwierzch Boskiej Krwi](/kontynent/zwierzch_boskiej_krwi.md)
-</div>
 
-<div>
 ## Krainy
 - [Aztlan](/krainy/aztlan.md)
 - [Excessus](/krainy/excessus.md)
@@ -38,7 +33,3 @@ layout: default
 - [Step Perang](/krainy/step_perang.md)
 - [Tsuulim](/krainy/tsuulim.md)
 - [Wolny Ląd](/krainy/wolny_lad.md)
-</div>
-
-</div>
-

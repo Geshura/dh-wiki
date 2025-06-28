@@ -2,4 +2,4 @@
 
 Tu opisuję historię.
 
-[Wróć do strony głównej](Strona-glowna.md)
+[Wróć do strony głównej](strona-glowna.md)

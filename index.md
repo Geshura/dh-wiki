@@ -17,6 +17,14 @@ layout: default
 - [Semid](/kontynent/semid.md)
 - [Zwierzch Boskiej Krwi](/kontynent/zwierzch_boskiej_krwi.md)
 
+### Semid
+- [Lokacja – Eris Gers](/semid/lokacje_erisgers.md)
+- [Lokacja – Hale Reolla](/semid/lokacje_hale_reolla.md)
+- [Państwo – MushroomCraft](/semid/panstwo_mushroomcraft.md)
+- [Państwo – Tharnheim](/semid/panstwo_tharnheim.md)
+- [Państwo – Tong'Ariki](/semid/panstwo_tong_ariki.md)
+
+
 ## Krainy
 - [Aztlan](/krainy/aztlan.md)
 - [Excessus](/krainy/excessus.md)

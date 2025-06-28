@@ -6,12 +6,12 @@ layout: default
 # Spis treści
 
 ## FAQ
-- [1. Wikipedia FAQ (<strong>autor:  Michał</strong>)](/swiat/rasy.md)
-- [2. Karta Postaci Daggerheart (<strong>autor: Michał, Piątek</strong>)](/swiat/rasy.md)
-- [3. Karta Pomocy Daggerheart (<strong>autor: Michał, Piątek</strong>)](/swiat/rasy.md)
-- [4. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/swiat/rasy.md)
-- [5. Dysk Google (<strong>autor:  Piątek</strong>)](/swiat/rasy.md)
-- [6. FAQ tworzenia plików .md (<strong>autor:  Macieja</strong>)](/swiat/rasy.md)
+- [1. Wikipedia FAQ (<strong>autor:  Michał</strong>)](/faq/rasy.md)
+- [2. Karta Postaci (<strong>autor: Michał, Piątek</strong>)](/faq/rasy.md)
+- [3. Karta Pomocy (<strong>autor: Michał, Piątek</strong>)](/faq/rasy.md)
+- [4. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/faq/rasy.md)
+- [5. Dysk Google (<strong>autor:  Piątek</strong>)](/faq/rasy.md)
+- [6. FAQ tworzenia plików .md (<strong>autor:  Macieja</strong>)](/faq/faq.md)
 
 ## Świat
 - [Główny Panteon Bogów (<strong>autor:  Piątek</strong>)](/swiat/glowny_panteon_bogow.md)

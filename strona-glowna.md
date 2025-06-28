@@ -1,5 +1,10 @@
-# Witaj w mojej Wiki!
+---
+title: Strona Główna
+layout: default
+---
 
-To jest moja prosta wiki na GitHubie.
+# Strona Główna
 
-[Przejdź do historii](historia.md)
+To jest główna treść wiki.
+
+[Przejdź do Historii](historia.md)

@@ -1,10 +1,10 @@
 ---
-layout: default
 title: Witamy w DH Wiki
+layout: default
 ---
 
 # Witamy w DH Wiki!
 
-To jest domyślna strona startowa.
+To jest domyślna strona startowa w klimacie fantasy.
 
-[Przejdź do strony głównej](strona-glowna.md)
+[Przejdź do Strona-glowna](Strona-glowna.md)

@@ -13,8 +13,8 @@ layout: default
 
 ## Lore Kontynentu
 - [Consilium Arcanum](/kontynent/consilium_arcanum.md)
+- [Pierwsza Wojna Magiczna](/kontynent/pierwsza_wojna_magiczna.md)
 - [Semid Daggerheart](/kontynent/semid_daggerheart.md)
-- [Solmera](/kontynent/solmera.md)
 - [Zwierzch Boskiej Krwi](/kontynent/zwierzch_boskiej_krwi.md)
 
 ## Krainy

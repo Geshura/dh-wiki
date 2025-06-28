@@ -7,4 +7,4 @@ layout: default
 
 To jest domyślna strona startowa w klimacie fantasy.
 
-[Przejdź do Strona-glowna](Strona-glowna.md)
+[Przejdź do Strona-glowna](strona-glowna.md)

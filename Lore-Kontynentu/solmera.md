@@ -7,4 +7,4 @@ layout: default
 
 Solmera — ważne miejsce w Lore Kontynentu i krainach.
 
-[⬅️ Wróć do spisu treści](../index.md)
+[⬅️ Wróć do spisu treści](index.md)

@@ -7,4 +7,4 @@ layout: default
 
 Solmera — ważna kraina w świecie.
 
-[⬅️ Wróć do spisu treści](../index.md)
+[⬅️ Wróć do spisu treści](index.md)

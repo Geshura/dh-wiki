@@ -7,4 +7,4 @@ layout: default
 
 Opis ras zamieszkujących świat Daggerheart.
 
-[⬅️ Wróć do spisu treści](../index.md)
+[⬅️ Wróć do spisu treści](index.md)

@@ -7,4 +7,4 @@ layout: default
 
 Opis krainy Excessus.
 
-[⬅️ Wróć do spisu treści](../index.md)
+[⬅️ Wróć do spisu treści](index.md)

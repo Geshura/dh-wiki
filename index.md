@@ -6,8 +6,8 @@ layout: default
 # Spis treści
 
 ## Lore Świata
-- [Rasy](swiat/rasy.md)
-- [Ogólne Lore Świata](swiat/ogolne_swiat.md)
+- [Rasy](/swiat/rasy.md)
+- [Ogólne Lore Świata](/swiat/ogolne_swiat.md)
 - [Klasy Daggerheart Fabularne](/swiat/klasy_daggerheart_fabularne.md)
 - [Główny Panteon Bogów](/swiat/glowny_panteon_bogow.md)
 

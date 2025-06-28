@@ -7,4 +7,4 @@ layout: default
 
 Opis klas dostępnych w systemie Daggerheart.
 
-[⬅️ Wróć do spisu treści](index.md)
+[⬅️ Wróć do spisu treści](../index.md)

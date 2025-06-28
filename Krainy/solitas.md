@@ -7,4 +7,4 @@ layout: default
 
 Kraina Solitas — tajemnicza i pełna magii.
 
-[⬅️ Wróć do spisu treści](index.md)
+[⬅️ Wróć do spisu treści](../index.md)

@@ -7,4 +7,4 @@ layout: default
 
 Wprowadzenie do ogólnego lore świata Daggerheart.
 
-[⬅️ Wróć do spisu treści](index.md)
+[⬅️ Wróć do spisu treści](../index.md)

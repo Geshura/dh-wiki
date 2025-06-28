@@ -7,4 +7,4 @@ layout: default
 
 Opis Zwierzchu Boskiej Krwi.
 
-[⬅️ Wróć do spisu treści](index.md)
+[⬅️ Wróć do spisu treści](../index.md)

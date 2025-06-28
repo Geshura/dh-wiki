@@ -7,4 +7,4 @@ layout: default
 
 Przegląd głównego panteonu bogów w świecie.
 
-[⬅️ Wróć do spisu treści](index.md)
+[⬅️ Wróć do spisu treści](../index.md)

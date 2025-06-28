@@ -58,6 +58,30 @@
       margin-top: 1.2rem;
     }
 
+    .galactic-title {
+      text-align: center;
+      font-size: 2.8rem;
+      color: #82eaff;
+      text-shadow: 0 0 5px #00e5ff, 0 0 15px #00e5ff;
+      transition: transform 0.3s ease, text-shadow 0.3s ease;
+      margin: 0.5em 0;
+    }
+
+    .galactic-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .galactic-title a:visited {
+      color: #b39ddb;
+      text-shadow: 0 0 5px #9575cd, 0 0 15px #7e57c2;
+    }
+
+    .galactic-title:hover {
+      transform: scale(1.03);
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+
     main h2 {
       font-size: 1.4rem;
       color: #80deea;
@@ -93,36 +117,16 @@
       color: #ffffff;
       text-shadow: 0 0 5px #00e5ff;
     }
-	
-	.galactic-title {
-	  text-align: center;
-	  font-size: 2.8rem;
-	  color: #82eaff;
-	  text-shadow: 0 0 5px #00e5ff, 0 0 15px #00e5ff;
-	  transition: transform 0.3s ease, text-shadow 0.3s ease;
-	  margin: 0.5em 0;
-	}
-
-	.galactic-title a {
-	  color: inherit;
-	  text-decoration: none;
-	}
-
-	.galactic-title:hover {
-	  transform: scale(1.03);
-	  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
-	}
-
   </style>
 </head>
 <body>
   <div id="dynamic-gradient-background"></div>
 
-	<header>
-		<h1 class="galactic-title">
-		<a href="{{ site.baseurl }}/">{{ site.title | default: "🌌 DH WIKI 🌌" }}</a>
-	</h1>
-	</header>
+  <header>
+    <h1 class="galactic-title">
+      <a href="{{ site.baseurl }}/">{{ site.title | default: "🌌 DH WIKI 🌌" }}</a>
+    </h1>
+  </header>
 
   <main>
     {{ content }}

@@ -1,7 +1,6 @@
-# Włączamy brak motywu, bo zrobimy własny
 theme: null
+title: DH Wiki - motyw Geshura
 
-# Wskazujemy folder z layoutami
 defaults:
   -
     scope:
@@ -10,6 +9,5 @@ defaults:
     values:
       layout: "default"
 
-# Włączamy przydatne wtyczki (opcjonalnie)
 plugins:
   - jekyll-feed

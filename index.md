@@ -6,7 +6,7 @@ layout: default
 # Spis treści
 
 ## FAQ
-- [1. FAQ (<strong>autor:  Piątek</strong>)](/swiat/rasy.md)
+- [1. Wikipedia FAQ (<strong>autor:  Michał</strong>)](/swiat/rasy.md)
 - [2. Karta Postaci Daggerheart (<strong>autor: Michał, Piątek</strong>)](/swiat/rasy.md)
 - [3. Karta Pomocy Daggerheart (<strong>autor: Michał, Piątek</strong>)](/swiat/rasy.md)
 - [4. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/swiat/rasy.md)

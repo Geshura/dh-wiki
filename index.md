@@ -6,12 +6,12 @@ layout: default
 # Spis treści
 
 ## FAQ
-- [1. Wikipedia FAQ (<strong>autor:  Michał</strong>)](/faq/rasy.md)
-- [2. Karta Postaci (<strong>autor: Michał, Piątek</strong>)](/faq/rasy.md)
-- [3. Karta Pomocy (<strong>autor: Michał, Piątek</strong>)](/faq/rasy.md)
-- [4. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/faq/rasy.md)
-- [5. Dysk Google (<strong>autor:  Piątek</strong>)](/faq/rasy.md)
-- [6. FAQ tworzenia plików .md (<strong>autor:  Macieja</strong>)](/faq/faq.md)
+- [1. Wikipedia FAQ (<strong>autor:  Michał</strong>)](/faq/wiki_faq.md)
+- [2. Karta Postaci (<strong>autor: Michał, Piątek</strong>)](/faq/karta_postaci.md)
+- [3. Karta Pomocy (<strong>autor: Michał, Piątek</strong>)](/faq/karta_pomocy.md)
+- [4. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/faq/makro.md)
+- [5. Dysk Google (<strong>autor:  Piątek</strong>)](/faq/dysk_google.md)
+- [6. FAQ tworzenia plików .md (<strong>autor:  Macieja</strong>)](/faq/md_faq.md)
 
 ## Świat
 - [Główny Panteon Bogów (<strong>autor:  Piątek</strong>)](/swiat/glowny_panteon_bogow.md)

@@ -2,4 +2,4 @@
 
 To jest moja prosta wiki na GitHubie.
 
-[Przejdź do historii](Historia.md)
+[Przejdź do historii](historia.md)

@@ -4,10 +4,12 @@ title: Daggerheart
 defaults:
   -
     scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
+        baseurl: "/dh-wiki" 
+        url: "https://geshura.github.io"
+        path: ""
+        type: "pages"
+        values:
+        layout: "default"
 
 plugins:
   - jekyll-feed

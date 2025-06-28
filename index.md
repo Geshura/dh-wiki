@@ -1,12 +1,35 @@
 ---
-title: Witaj podróżniku!
+title: Spis treści
 layout: default
 ---
 
-# Witaj w Daggerheart Wiki
+# Spis treści
 
-Miejscu, gdzie pradawne opowieści, zakurzone mapy i sekrety minionych czasów splatają się w jedną żywą księgę wiedzy. Ta wiki jest kompendium historii krain utkanych z cieni i magii, opowieści o bohaterach, których czyny przetrwały jedynie w szeptach legend. Każda strona odsłania fragment zapomnianych tajemnic, pradawnych zaklęć i wydarzeń, które ukształtowały ten świat. Zanurz się w tej podróży po przeszłości i odkryj to, co czas chciałby zatrzeć.
+## Lore Świata
+- [Rasy](Lore-Swiata/rasy.md)
+- [Ogólne Lore Świata](Lore-Swiata/ogolne-lore-swiata.md)
+- [Klasy Daggerheart Fabularne](Lore-Swiata/klasy-daggerheart-fabularne.md)
+- [Główny Panteon Bogów](Lore-Swiata/glowny-panteon-bogow.md)
 
-W skrócie — Daggerheart Wiki to dedykowana encyklopedia i źródło wiedzy o naszym autorskim uniwersum oraz systemie RPG Daggerheart. Znajdziesz tu opisy krain, frakcji, postaci, magii, historii oraz mechanik gry, które pozwolą zarówno nowym, jak i doświadczonym graczom lepiej zrozumieć i zanurzyć się w ten unikalny świat. To miejsce, gdzie każdy fragment lore jest starannie dokumentowany, a społeczność może współtworzyć opowieść o Daggerheart.
+## Lore Kontynentu
+- [Semid_Daggerheart](Lore-Kontynentu/semid_daggerheart.md)
+- [Zwierzch Boskiej Krwi](Lore-Kontynentu/zwierzch-boskiej-krwi.md)
+- [Solmera](Lore-Kontynentu/solmera.md)
+- [Consilium Arcanum](Lore-Kontynentu/consilium-arcanum.md)
 
-[Przejdź do Spisu treści](spis.md)
+## Krainy
+- [Solitas](Krainy/solitas.md)
+- [Wolny Ląd](Krainy/wolny-lad.md)
+- [Fama](Krainy/fama.md)
+- [Gabun](Krainy/gabun.md)
+- [Excessus](Krainy/excessus.md)
+- [Lautus](Krainy/lautus.md)
+- [Aztlan](Krainy/aztlan.md)
+- [Indignans](Krainy/indignans.md)
+- [Iussum](Krainy/iussum.md)
+- [Kasamok](Krainy/kasamok.md)
+- [Solmera](Krainy/solmera.md)
+- [Step Perang](Krainy/step-perang.md)
+- [Tsuulim](Krainy/tsuulim.md)
+- [Humanoidalny Las](Krainy/humanoidalny-las.md)
+- [Mykoria](Krainy/mykoria.md)

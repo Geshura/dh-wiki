@@ -24,28 +24,27 @@
   width: 14px;
   height: 14px;
   background-color: #152468;
-  border: 2px solid white;
+  border: 2px solid #152468;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  box-shadow: 0 0 6px rgba(21, 36, 104, 0.6);
   z-index: 5;
 
-  /* Kluczowa linijka dla pulsowania */
-  animation: pulse 2s ease-in-out infinite;
+  /* Animacja pulsująca kolor */
+  animation: colorPulse 3s ease-in-out infinite;
 
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.3s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Pulsowanie: zmiana rozmiaru i cienia, żeby efekt był dobrze widoczny */
-@keyframes pulse {
+/* Animacja zmienia kolor tła i obramowania */
+@keyframes colorPulse {
   0%, 100% {
-    box-shadow: 0 0 6px 2px rgba(21, 36, 104, 0.6);
-    transform: translate(-50%, -50%) scale(1);
+    background-color: #152468;
+    border-color: #152468;
   }
   50% {
-    box-shadow: 0 0 15px 5px rgba(21, 36, 104, 1);
-    transform: translate(-50%, -50%) scale(1.2);
+    background-color: #2a3a8c;  /* jaśniejszy odcień niebieskiego */
+    border-color: #2a3a8c;
   }
 }
 
@@ -81,6 +80,7 @@
 /* Złoty kolor przy hoverze */
 .marker:hover {
   background-color: #ffd700; /* złoty */
+  border-color: #ffd700;
   transform: translate(-50%, -50%) scale(1.4);
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 18px rgba(255, 215, 0, 0.6);
   z-index: 10;

@@ -1,48 +1,95 @@
+@font-face {
+  font-family: 'Eveleth-Clean-Regular';
+  src: url('./fonts/Eveleth-Clean-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.map-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #444;
+  display: inline-block; /* by map-container minimalnie dopasował się do obrazu */
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: auto;
+  user-select: none;
+  pointer-events: none; /* żeby kliknięcia przechodziły na markery */
+}
+
 .marker {
   position: absolute;
   width: 18px;
   height: 18px;
-  background: 
-    radial-gradient(circle at 30% 30%, #FFD54F, #B8860B 80%);
-  border: 2px solid #FFD700;
+  background: radial-gradient(circle at center, #2a2f9e 0%, #1b215c 80%);
+  border: 2px solid rgba(255, 255, 255, 0.9);
   border-radius: 50%;
-  box-shadow:
-    0 0 8px rgba(255, 215, 0, 0.8),
-    0 0 20px rgba(184, 134, 11, 0.7),
-    inset 0 4px 10px rgba(255, 255, 224, 0.6),
-    inset 0 -3px 5px rgba(139, 69, 19, 0.5);
-  cursor: pointer;
   transform: translate(-50%, -50%);
-  animation: pulse-gold 2.5s ease-in-out infinite;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-  z-index: 10;
-  font-family: 'Eveleth', sans-serif;
-}
-
-.marker:hover {
-  transform: translate(-50%, -50%) scale(1.5);
-  border-color: #FFEC8B; /* jaśniejszy złoty */
+  cursor: pointer;
   box-shadow:
-    0 0 18px #FFEC8B,
-    0 0 28px #FFD700,
-    inset 0 6px 14px rgba(255, 255, 224, 0.8),
-    inset 0 -5px 12px rgba(184, 134, 11, 0.7);
-  z-index: 15;
+    0 0 6px rgba(42, 47, 158, 0.7),
+    0 0 12px rgba(27, 33, 92, 0.5),
+    inset 0 0 5px rgba(255, 255, 255, 0.3);
+  animation: pulse 2.5s infinite ease-in-out;
+  transition: all 0.3s ease;
+  z-index: 10;
+  font-family: 'Eveleth-Clean-Regular', sans-serif;
 }
 
-@keyframes pulse-gold {
+/* Etykiety obok kropek - widoczne cały czas */
+.marker::after {
+  content: attr(title);
+  position: absolute;
+  top: 50%;
+  left: 120%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+  color: #152468;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  box-shadow: 0 1px 4px rgba(21, 36, 104, 0.3);
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+  z-index: 12;
+}
+
+/* Hover marker - całkowicie złoty */
+.marker:hover {
+  background: #ffd700;
+  border-color: #b8860b;
+  box-shadow:
+    0 0 15px #ffd700,
+    0 0 30px #b8860b inset,
+    0 0 10px #fff3b0;
+  animation: none;
+  transform: translate(-50%, -50%) scale(1.4);
+  z-index: 20;
+}
+
+.marker:hover::after {
+  opacity: 1;
+}
+
+/* Efekt pulsowania dla domyślnych markerów */
+@keyframes pulse {
   0%, 100% {
     box-shadow:
-      0 0 8px rgba(255, 215, 0, 0.8),
-      0 0 20px rgba(184, 134, 11, 0.7),
-      inset 0 4px 10px rgba(255, 255, 224, 0.6),
-      inset 0 -3px 5px rgba(139, 69, 19, 0.5);
+      0 0 6px rgba(42, 47, 158, 0.7),
+      0 0 12px rgba(27, 33, 92, 0.5),
+      inset 0 0 5px rgba(255, 255, 255, 0.3);
   }
   50% {
     box-shadow:
-      0 0 20px rgba(255, 215, 0, 1),
-      0 0 40px rgba(184, 134, 11, 0.9),
-      inset 0 8px 18px rgba(255, 255, 224, 0.9),
-      inset 0 -6px 12px rgba(139, 69, 19, 0.8);
+      0 0 14px rgba(42, 47, 158, 1),
+      0 0 24px rgba(27, 33, 92, 0.7),
+      inset 0 0 8px rgba(255, 255, 255, 0.6);
   }
 }

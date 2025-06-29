@@ -12,17 +12,19 @@
 
 .marker {
   position: absolute;
-  width: 16px;
-  height: 16px;
-  background-color: red;
-  border: 2px solid white;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 0, 0, 0.7); /* czerwony z przezroczystością */
+  border: 2px solid rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  transition: transform 0.2s, background-color 0.2s;
+  transition: transform 0.2s, background-color 0.2s, box-shadow 0.3s;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
 }
 
 .marker:hover {
-  background-color: yellow;
-  transform: translate(-50%, -50%) scale(1.2);
+  background-color: rgba(255, 255, 0, 0.9); /* żółty z lekką przezroczystością */
+  transform: translate(-50%, -50%) scale(1.4);
+  box-shadow: 0 0 12px rgba(255, 255, 0, 0.9);
 }

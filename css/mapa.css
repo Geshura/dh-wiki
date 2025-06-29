@@ -1,87 +1,48 @@
-@font-face {
-  font-family: 'EvelethClean';
-  src: url('./fonts/Eveleth-Clean-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.map-container {
-  position: relative;
-  max-width: 1000px;
-  margin: auto;
-  border: 2px solid #444;
-}
-
-.map {
-  width: 100%;
-  display: block;
-  position: relative;
-  z-index: 1;
-}
-
 .marker {
   position: absolute;
-  width: 14px;
-  height: 14px;
-  background-color: #152468;
-  border: 2px solid #152468;
+  width: 24px;
+  height: 24px;
+  background: radial-gradient(circle at center, #152468 0%, #304d9f 80%);
+  border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  z-index: 5;
-
-  /* Animacja pulsująca kolor */
-  animation: colorPulse 3s ease-in-out infinite;
-
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.3s ease, border-color 0.3s ease;
+  box-shadow: 
+    0 0 10px rgba(21, 36, 104, 0.7),
+    0 0 20px rgba(48, 77, 159, 0.5),
+    inset 0 0 5px rgba(255, 255, 255, 0.3);
+  animation: pulse 2.5s infinite;
+  transition: 
+    transform 0.3s ease, 
+    box-shadow 0.3s ease, 
+    background 0.3s ease, 
+    border-color 0.3s ease;
+  z-index: 10;
 }
 
-/* Animacja zmienia kolor tła i obramowania */
-@keyframes colorPulse {
+.marker:hover {
+  transform: translate(-50%, -50%) scale(1.6);
+  background: radial-gradient(circle at center, #ffd700 0%, #bfa300 80%);
+  border-color: #ffd700;
+  box-shadow: 
+    0 0 15px rgba(255, 215, 0, 0.9),
+    0 0 30px rgba(255, 215, 0, 0.7),
+    inset 0 0 8px rgba(255, 255, 255, 0.4);
+  z-index: 15;
+}
+
+/* Efekt pulsowania box-shadow i inset */
+@keyframes pulse {
   0%, 100% {
-    background-color: #152468;
-    border-color: #152468;
+    box-shadow: 
+      0 0 10px rgba(21, 36, 104, 0.7),
+      0 0 20px rgba(48, 77, 159, 0.5),
+      inset 0 0 5px rgba(255, 255, 255, 0.3);
   }
   50% {
-    background-color: #2a3a8c;  /* jaśniejszy odcień niebieskiego */
-    border-color: #2a3a8c;
+    box-shadow: 
+      0 0 20px rgba(21, 36, 104, 1),
+      0 0 40px rgba(48, 77, 159, 0.8),
+      inset 0 0 10px rgba(255, 255, 255, 0.6);
   }
-}
-
-/* Tooltip zawsze widoczny z gradientem */
-.marker::after {
-  content: attr(title);
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: linear-gradient(135deg, #152468, #1d2e8c);
-  color: white;
-  padding: 4px 10px;
-  border-radius: 6px;
-  white-space: nowrap;
-  font-size: 11px;
-  font-family: 'EvelethClean', sans-serif;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
-  opacity: 1;
-  transition: opacity 0.2s ease;
-}
-
-/* Ukrywaj inne tooltipy przy hoverze */
-.map-container:hover .marker::after {
-  opacity: 0;
-}
-
-.map-container:hover .marker:hover::after {
-  opacity: 1;
-  z-index: 10;
-}
-
-/* Złoty kolor przy hoverze */
-.marker:hover {
-  background-color: #ffd700; /* złoty */
-  border-color: #ffd700;
-  transform: translate(-50%, -50%) scale(1.4);
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 18px rgba(255, 215, 0, 0.6);
-  z-index: 10;
 }

@@ -58,37 +58,27 @@
       margin-top: 1.2rem;
     }
 
-    .galactic-title {
-      text-align: center;
-      font-size: 2.8rem;
-      color: #d4af37; /* klasyczny złoty */
-      text-shadow:
-        0 0 2px #bfa13b,
-        0 0 5px #a78c2f,
-        0 0 10px #8e7930;
-      transition: transform 0.3s ease, text-shadow 0.3s ease;
-      margin: 0.5em 0;
-    }
     
-    .galactic-title a {
-      color: inherit;
-      text-decoration: none;
-    }
-    
-    .galactic-title a:visited {
-      color: #caa235;
-      text-shadow:
-        0 0 2px #a07f2b,
-        0 0 4px #8a6f28;
-    }
-    
-    .galactic-title:hover {
-      transform: scale(1.03);
-      text-shadow:
-        0 0 4px #d4af37,
-        0 0 8px #caa235,
-        0 0 12px #b4912e;
-    }
+.galactic-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #f1f1f1;
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  text-shadow:
+    1px 1px 2px rgba(0,0,0,0.7),
+    0 0 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+  margin: 0.5em 0;
+  letter-spacing: 1px;
+}
+
+.galactic-title a,
+.galactic-title a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
 
     main h2 {
       font-size: 1.4rem;
@@ -115,16 +105,20 @@
       border-color: #80deea;
     }
 
-    main a {
-      color: #b3e5fc;
-      font-weight: 500;
-      transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
-    }
+    
+main a,
+main a:visited {
+  color: #b3e5fc;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out, text-shadow 0.2s ease-in-out;
+}
 
-    main a:hover {
-      color: #ffffff;
-      text-shadow: 0 0 5px #00e5ff;
-    }
+main a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 5px #00e5ff;
+}
+
   </style>
 </head>
 <body>

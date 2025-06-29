@@ -83,20 +83,41 @@
     
 .galactic-title {
   text-align: center;
-  font-size: 4rem;
-  font-weight: 600;
+  font-size: 4.5rem;
+  font-weight: 700;
   font-family: "Eveleth Clean", serif;
   color: transparent;
-  background: linear-gradient(90deg, #d16ba5, #86a8e7, #5ffbf1);
+  background: linear-gradient(135deg, #d16ba5, #86a8e7, #5ffbf1);
   background-clip: text;
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.15em;
   text-shadow: 
-    0 0 5px rgba(255, 255, 255, 0.8),
-    0 0 10px rgba(255, 0, 255, 0.8),
-    0 0 20px rgba(0, 255, 255, 0.6);
+    0 0 5px #d16ba5,
+    0 0 10px #86a8e7,
+    0 0 15px #5ffbf1,
+    0 0 20px #5ffbf1,
+    0 0 30px #d16ba5;
   transition: transform 0.3s ease, text-shadow 0.3s ease;
-  margin: 0.5em 0;
-  letter-spacing: 2px;
+  position: relative;
+  user-select: none;
+  cursor: default;
+}
+
+.galactic-title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  width: 120%;
+  height: 20%;
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(10px);
+  transform: rotate(-30deg);
+  pointer-events: none;
+  border-radius: 50%;
+  opacity: 0.6;
+  mix-blend-mode: screen;
 }
 
 .galactic-title a {
@@ -105,11 +126,13 @@
 }
 
 .galactic-title:hover {
-  transform: scale(1.05);
-  text-shadow: 
-    0 0 10px rgba(255, 255, 255, 0.8),
-    0 0 20px rgba(255, 0, 255, 1),
-    0 0 30px rgba(0, 255, 255, 1);
+  transform: scale(1.07);
+  text-shadow:
+    0 0 8px #d16ba5,
+    0 0 15px #86a8e7,
+    0 0 20px #5ffbf1,
+    0 0 30px #5ffbf1,
+    0 0 40px #d16ba5;
 }
 
 

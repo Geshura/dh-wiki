@@ -2,42 +2,47 @@
   position: absolute;
   width: 24px;
   height: 24px;
-  background: radial-gradient(circle at center, #ff0055 0%, #5500ff 80%);
+  background: radial-gradient(circle at center, #152468 0%, #152468 100%);
   border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(255, 0, 100, 0.7),
-              0 0 20px rgba(85, 0, 255, 0.5),
-              inset 0 0 5px rgba(255, 255, 255, 0.3);
-  animation: pulse 2s infinite;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, scale 0.3s;
+  box-shadow:
+    0 0 10px rgba(21, 36, 104, 0.6),
+    0 0 20px rgba(21, 36, 104, 0.4),
+    inset 0 0 5px rgba(255, 255, 255, 0.2);
+  animation: pulse 2.5s infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   z-index: 10;
 }
 
 .marker:hover {
-  transform: translate(-50%, -50%) scale(1.6);
-  box-shadow: 0 0 15px rgba(255, 0, 100, 0.9),
-              0 0 30px rgba(85, 0, 255, 0.7),
-              inset 0 0 8px rgba(255, 255, 255, 0.4);
-  z-index: 15;
+  transform: translate(-50%, -50%) scale(1.5);
+  box-shadow:
+    0 0 15px rgba(21, 36, 104, 0.9),
+    0 0 30px rgba(21, 36, 104, 0.7),
+    inset 0 0 10px rgba(255, 255, 255, 0.3);
+  z-index: 20;
 }
 
-/* Efekt pulsowania */
+/* Pulsowanie dopasowane do granatu */
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 10px rgba(255, 0, 100, 0.7),
-                0 0 20px rgba(85, 0, 255, 0.5),
-                inset 0 0 5px rgba(255, 255, 255, 0.3);
+    box-shadow:
+      0 0 10px rgba(21, 36, 104, 0.6),
+      0 0 20px rgba(21, 36, 104, 0.4),
+      inset 0 0 5px rgba(255, 255, 255, 0.2);
   }
   50% {
-    box-shadow: 0 0 20px rgba(255, 0, 100, 1),
-                0 0 40px rgba(85, 0, 255, 0.8),
-                inset 0 0 10px rgba(255, 255, 255, 0.6);
+    box-shadow:
+      0 0 18px rgba(21, 36, 104, 0.9),
+      0 0 35px rgba(21, 36, 104, 0.6),
+      inset 0 0 10px rgba(255, 255, 255, 0.3);
   }
   100% {
-    box-shadow: 0 0 10px rgba(255, 0, 100, 0.7),
-                0 0 20px rgba(85, 0, 255, 0.5),
-                inset 0 0 5px rgba(255, 255, 255, 0.3);
+    box-shadow:
+      0 0 10px rgba(21, 36, 104, 0.6),
+      0 0 20px rgba(21, 36, 104, 0.4),
+      inset 0 0 5px rgba(255, 255, 255, 0.2);
   }
 }

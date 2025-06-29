@@ -30,20 +30,22 @@
   cursor: pointer;
   box-shadow: 0 0 6px rgba(21, 36, 104, 0.6);
   z-index: 5;
-  animation: pulse 2s infinite;
+
+  /* Kluczowa linijka dla pulsowania */
+  animation: pulse 2s ease-in-out infinite;
+
   transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.3s ease;
 }
 
-/* Pulsowanie */
+/* Pulsowanie: zmiana rozmiaru i cienia, żeby efekt był dobrze widoczny */
 @keyframes pulse {
-  0% {
-    box-shadow: 0 0 4px rgba(21, 36, 104, 0.4), 0 0 10px rgba(21, 36, 104, 0.3);
+  0%, 100% {
+    box-shadow: 0 0 6px 2px rgba(21, 36, 104, 0.6);
+    transform: translate(-50%, -50%) scale(1);
   }
   50% {
-    box-shadow: 0 0 12px rgba(21, 36, 104, 0.8), 0 0 20px rgba(21, 36, 104, 0.6);
-  }
-  100% {
-    box-shadow: 0 0 4px rgba(21, 36, 104, 0.4), 0 0 10px rgba(21, 36, 104, 0.3);
+    box-shadow: 0 0 15px 5px rgba(21, 36, 104, 1);
+    transform: translate(-50%, -50%) scale(1.2);
   }
 }
 

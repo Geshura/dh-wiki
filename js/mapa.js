@@ -1,4 +1,4 @@
-// Otwarcie linku po kliknięciu markera
+// Otwieranie linków
 document.querySelectorAll('.marker').forEach(marker => {
   marker.addEventListener('click', () => {
     const url = marker.getAttribute('data-link');
@@ -8,7 +8,7 @@ document.querySelectorAll('.marker').forEach(marker => {
   });
 });
 
-// Przełącznik widoczności markerów
+// Przycisk ukrywania/pokazywania
 const btn = document.getElementById('toggleMarkersBtn');
 const markers = document.querySelectorAll('.marker');
 let visible = true;

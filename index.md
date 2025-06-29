@@ -11,7 +11,7 @@ layout: default
 	<div class="marker" style="top: 93.96%; left: 79.49%;" title="Crathalon" data-link="{{ site.baseurl }}/krainy/crathalon.html"></div>
 	<div class="marker" style="top: 21.98%; left: 24.41%;" title="Fama" data-link="{{ site.baseurl }}/krainy/fama.html"></div>
 	<div class="marker" style="top: 35.30%; left: 21.04%;" title="Excessus" data-link="{{ site.baseurl }}/krainy/excessus.html"></div>
-	<div class="marker" style="top: 20.54%; left: 32.23%;" title="Gabun" data-link="{{ site.baseurl }}/krainy/gabun.html"></div>
+	<div class="marker" style="top: 18.41%; left: 31.88%;" title="Gabun" data-link="{{ site.baseurl }}/krainy/gabun.html"></div>
 	<div class="marker" style="top: 36.89%; left: 89.45%;" title="Gora" data-link="{{ site.baseurl }}/krainy/gora.html"></div>
 	<div class="marker" style="top: 41.66%; left: 76.17%;" title="Humanoidalny Las" data-link="{{ site.baseurl }}/krainy/humanoidalny_las.html"></div>
 	<div class="marker" style="top: 46.43%; left: 38.57%;" title="Iussum" data-link="{{ site.baseurl }}/krainy/iussum.html"></div>

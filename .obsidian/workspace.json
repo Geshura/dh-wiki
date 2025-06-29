@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bg/michal/postac.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "postac"
+              "title": "index"
             }
           }
         ]
@@ -170,11 +170,11 @@
   },
   "active": "163121165434a6f9",
   "lastOpenFiles": [
+    "bg/michal/postac.md",
     "faq/md_faq.md",
     "faq/faq.md",
     "faq/faq_md.md",
     "index.md",
-    "bg/michal/postac.md",
     "faq/Formatowanie MD (markdown).md",
     "faq",
     "Nowy folder",

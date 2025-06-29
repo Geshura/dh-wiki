@@ -30,17 +30,33 @@
   cursor: pointer;
   box-shadow: 0 0 6px rgba(21, 36, 104, 0.6);
   z-index: 5;
+  animation: pulse 2s infinite;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.3s ease;
 }
 
+/* Pulsowanie */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 4px rgba(21, 36, 104, 0.4), 0 0 10px rgba(21, 36, 104, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(21, 36, 104, 0.8), 0 0 20px rgba(21, 36, 104, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 4px rgba(21, 36, 104, 0.4), 0 0 10px rgba(21, 36, 104, 0.3);
+  }
+}
+
+/* Tooltip zawsze widoczny z gradientem */
 .marker::after {
   content: attr(title);
   position: absolute;
   top: -30px;
   left: 50%;
   transform: translateX(-50%);
-  background: #152468;
+  background: linear-gradient(135deg, #152468, #1d2e8c);
   color: white;
-  padding: 4px 8px;
+  padding: 4px 10px;
   border-radius: 6px;
   white-space: nowrap;
   font-size: 11px;
@@ -50,12 +66,20 @@
   transition: opacity 0.2s ease;
 }
 
-/* Ukrywaj inne napisy przy hoverze */
+/* Ukrywaj inne tooltipy przy hoverze */
 .map-container:hover .marker::after {
   opacity: 0;
 }
 
 .map-container:hover .marker:hover::after {
   opacity: 1;
+  z-index: 10;
+}
+
+/* Złoty kolor przy hoverze */
+.marker:hover {
+  background-color: #ffd700; /* złoty */
+  transform: translate(-50%, -50%) scale(1.4);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8), 0 0 18px rgba(255, 215, 0, 0.6);
   z-index: 10;
 }

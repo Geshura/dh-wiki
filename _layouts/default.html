@@ -34,7 +34,7 @@
       font-family: "Overpass Thin", sans-serif;
       font-weight: 100;
       color: #e0e0e0;
-      background-color: #000; /* fallback bg */
+      background-color: #000; /* fallback */
     }
 
     #dynamic-gradient-background {
@@ -45,6 +45,8 @@
       height: 100vh;
       z-index: -1;
       background: radial-gradient(circle at center, #000000, #1a1a1a);
+      background-repeat: no-repeat;
+      background-size: cover;
       transition: background 0.2s linear;
       pointer-events: none;
     }
@@ -88,14 +90,12 @@
       text-align: center;
       font-size: 2.8rem;
 
-      /* Gradientowy tekst od #142266 do #4ccbdf */
       background: linear-gradient(90deg, #142266 0%, #4ccbdf 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      background-clip: text; /* standard */
-      text-fill-color: transparent; /* standard */
+      background-clip: text;
+      text-fill-color: transparent;
 
-      /* neonowe cienie w kolorach gradientu */
       text-shadow:
         0 0 3px #142266,
         0 0 6px #2a3f7a,
@@ -112,7 +112,6 @@
     }
 
     .galactic-title a:visited {
-      /* trochę ciemniejszy odcień */
       color: #3aa9bf;
       text-shadow:
         0 0 2px #142266,
@@ -198,14 +197,7 @@
       const hue2 = Math.floor(180 + y * 100);
       const hue3 = Math.floor(160 + (1 - x) * 100);
 
-      background.style.background = `
-        radial-gradient(
-          circle at ${x * 100}% ${y * 100}%,
-          hsl(${hue1}, 100%, 60%),
-          hsl(${hue2}, 60%, 20%),
-          hsl(${hue3}, 60%, 10%)
-        )
-      `;
+      background.style.background = `radial-gradient(circle at ${x * 100}% ${y * 100}%, hsl(${hue1}, 100%, 60%), hsl(${hue2}, 60%, 20%), hsl(${hue3}, 60%, 10%))`;
     });
   </script>
 </body>

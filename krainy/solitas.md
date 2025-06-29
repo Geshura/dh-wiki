@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Solitas
 layout: default
 ---
 
-# Humanoidalny Las
+# Solitas
 
-Opis krainy Humanoidalny Las.
+Opis krainy Solitas.
 
 [⬅️ Wróć do spisu treści](../index.md)

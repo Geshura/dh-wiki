@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Kasamok
 layout: default
 ---
 
-# Humanoidalny Las
+# Kasamok
 
-Opis krainy Humanoidalny Las.
+Opis krainy Kasamok.
 
 [⬅️ Wróć do spisu treści](../index.md)

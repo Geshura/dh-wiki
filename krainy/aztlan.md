@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Aztlan
 layout: default
 ---
 
-# Humanoidalny Las
+# Aztlan
 
-Opis krainy Humanoidalny Las.
+Opis krainy Aztlan.
 
 [⬅️ Wróć do spisu treści](../index.md)

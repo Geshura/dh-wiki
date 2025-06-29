@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Fama
 layout: default
 ---
 
-# Humanoidalny Las
+# Fama
 
-Opis krainy Humanoidalny Las.
+Opis krainy Fama.
 
 [⬅️ Wróć do spisu treści](../index.md)

@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Gora
 layout: default
 ---
 
-# Humanoidalny Las
+# Gora
 
-Opis krainy Humanoidalny Las.
+Opis krainy Gora.
 
 [⬅️ Wróć do spisu treści](../index.md)

@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Wormhole
 layout: default
 ---
 
-# Humanoidalny Las
+# Wormhole
 
-Opis krainy Humanoidalny Las.
+Opis krainy Wormhole.
 
 [⬅️ Wróć do spisu treści](../index.md)

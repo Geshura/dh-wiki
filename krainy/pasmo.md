@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Pasmo
 layout: default
 ---
 
-# Humanoidalny Las
+# Pasmo
 
-Opis krainy Humanoidalny Las.
+Opis krainy Pasmo.
 
 [⬅️ Wróć do spisu treści](../index.md)

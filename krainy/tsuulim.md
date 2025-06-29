@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Tsuulim
 layout: default
 ---
 
-# Humanoidalny Las
+# Tsuulim
 
-Opis krainy Humanoidalny Las.
+Opis krainy Tsuulim.
 
 [⬅️ Wróć do spisu treści](../index.md)

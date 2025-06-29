@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Wieża
 layout: default
 ---
 
-# Humanoidalny Las
+# Wieża
 
-Opis krainy Humanoidalny Las.
+Opis krainy Wieża.
 
 [⬅️ Wróć do spisu treści](../index.md)

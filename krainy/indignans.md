@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Indignans
 layout: default
 ---
 
-# Humanoidalny Las
+# Indignans
 
-Opis krainy Humanoidalny Las.
+Opis krainy Indignans.
 
 [⬅️ Wróć do spisu treści](../index.md)

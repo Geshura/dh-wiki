@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Lautus
 layout: default
 ---
 
-# Humanoidalny Las
+# Lautus
 
-Opis krainy Humanoidalny Las.
+Opis krainy Lautus.
 
 [⬅️ Wróć do spisu treści](../index.md)

@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Iussum
 layout: default
 ---
 
-# Humanoidalny Las
+# Iussum
 
-Opis krainy Humanoidalny Las.
+Opis krainy Iussum.
 
 [⬅️ Wróć do spisu treści](../index.md)

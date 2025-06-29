@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Gabun
 layout: default
 ---
 
-# Humanoidalny Las
+# Gabun
 
-Opis krainy Humanoidalny Las.
+Opis krainy Gabun.
 
 [⬅️ Wróć do spisu treści](../index.md)

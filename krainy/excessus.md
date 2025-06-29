@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Excessus
 layout: default
 ---
 
-# Humanoidalny Las
+# Excessus
 
-Opis krainy Humanoidalny Las.
+Opis krainy Excessus.
 
 [⬅️ Wróć do spisu treści](../index.md)

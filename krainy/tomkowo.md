@@ -1,10 +1,10 @@
 ---
-title: Humanoidalny Las
+title: Tomkowo
 layout: default
 ---
 
-# Humanoidalny Las
+# Tomkowo
 
-Opis krainy Humanoidalny Las.
+Opis krainy Tomkowo.
 
 [⬅️ Wróć do spisu treści](../index.md)

@@ -1,30 +1,43 @@
-.map-container {
-  position: relative;
-  max-width: 1000px;
-  margin: auto;
-  border: 2px solid #444;
-}
-
-.map {
-  width: 100%;
-  display: block;
-}
-
 .marker {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: rgba(255, 0, 0, 0.7); /* czerwony z przezroczystością */
-  border: 2px solid rgba(255, 255, 255, 0.9);
+  width: 24px;
+  height: 24px;
+  background: radial-gradient(circle at center, #ff0055 0%, #5500ff 80%);
+  border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  transition: transform 0.2s, background-color 0.2s, box-shadow 0.3s;
-  box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(255, 0, 100, 0.7),
+              0 0 20px rgba(85, 0, 255, 0.5),
+              inset 0 0 5px rgba(255, 255, 255, 0.3);
+  animation: pulse 2s infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, scale 0.3s;
+  z-index: 10;
 }
 
 .marker:hover {
-  background-color: rgba(255, 255, 0, 0.9); /* żółty z lekką przezroczystością */
-  transform: translate(-50%, -50%) scale(1.4);
-  box-shadow: 0 0 12px rgba(255, 255, 0, 0.9);
+  transform: translate(-50%, -50%) scale(1.6);
+  box-shadow: 0 0 15px rgba(255, 0, 100, 0.9),
+              0 0 30px rgba(85, 0, 255, 0.7),
+              inset 0 0 8px rgba(255, 255, 255, 0.4);
+  z-index: 15;
+}
+
+/* Efekt pulsowania */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 0, 100, 0.7),
+                0 0 20px rgba(85, 0, 255, 0.5),
+                inset 0 0 5px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 0, 100, 1),
+                0 0 40px rgba(85, 0, 255, 0.8),
+                inset 0 0 10px rgba(255, 255, 255, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 0, 100, 0.7),
+                0 0 20px rgba(85, 0, 255, 0.5),
+                inset 0 0 5px rgba(255, 255, 255, 0.3);
+  }
 }

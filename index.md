@@ -5,12 +5,25 @@ layout: default
 
 # Mapa
 <div class="map-container">
-  <img src="imgs/mapa.png" alt="Mapa" class="map" />
-
-  <!-- Przykładowe markery -->
-  <div class="marker" style="top: 42%; left: 60%;" title="Latarnia Morska"></div>
-  <div class="marker" style="top: 70%; left: 20%;" title="Farma Mutantów"></div>
-  <div class="marker" style="top: 30%; left: 35%;" title="Zniszczony Most"></div>
+	<img src="imgs/mapa.png" alt="Mapa" class="map" />
+	<!-- Przykładowe markery -->
+	<div class="marker" style="top: 13.63%; left: 13.18%;" title="Wolny Ląd"></div>
+	<div class="marker" style="top: 13.63%; left: 22.46%;" title="Solitas"></div>
+	<div class="marker" style="top: 21.98%; left: 24.41%;" title="Fama"></div>
+	<div class="marker" style="top: 35.30%; left: 21.04%;" title="Excessus"></div>
+	<div class="marker" style="top: 36.89%; left: 29.79%;" title="Lautus"></div>
+	<div class="marker" style="top: 40.10%; left: 7.81%;" title="Aztlan"></div>
+	<div class="marker" style="top: 52.12%; left: 24.90%;" title="Indignans"></div>
+	<div class="marker" style="top: 90.70%; left: 17.09%;" title="Kasamok"></div>
+	<div class="marker" style="top: 73.45%; left: 48.83%;" title="Solmera"></div>
+	<div class="marker" style="top: 40.10%; left: 49.80%;" title="Step Perang"></div>
+	<div class="marker" style="top: 18.79%; left: 55.15%;" title="Tsuulim"></div>
+	<div class="marker" style="top: 37.27%; left: 64.84%;" title="Tomek"></div>
+	<div class="marker" style="top: 41.66%; left: 76.17%;" title="Humanoidalny Las"></div>
+	<div class="marker" style="top: 36.89%; left: 89.45%;" title="Gora"></div>
+	<div class="marker" style="top: 66.14%; left: 67.19%;" title="Mykoria"></div>
+	<div class="marker" style="top: 93.96%; left: 79.49%;" title="Banan"></div>
+	<div class="marker" style="top: 60.14%; left: 84.21%;" title="Night City"></div>
 </div>
 
 <link rel="stylesheet" href="css/mapa.css" />

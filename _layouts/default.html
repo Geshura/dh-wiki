@@ -48,20 +48,25 @@
       pointer-events: none;
     }
 
-    header, footer {
-      background: rgba(0, 0, 0, 0.7);
-      backdrop-filter: blur(4px);
-      padding: 1rem;
-      border-bottom: 1px solid #444;
+    /* Nowy styl headera */
+    header {
+      background: linear-gradient(90deg, #142266, #4ccbdf);
+      padding: 1.5rem 2rem;
+      border-radius: 0 0 12px 12px;
+      box-shadow: 0 4px 10px rgba(20, 194, 223, 0.3);
+      text-align: center;
       margin-bottom: 1rem;
     }
 
     footer {
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(4px);
+      padding: 1rem;
       border-top: 1px solid #444;
-      margin-top: 2rem;
       font-size: 0.9rem;
       color: #888;
       text-align: center;
+      margin-top: 2rem;
     }
 
     main {
@@ -80,24 +85,15 @@
       font-weight: 500;
     }
 
+    /* Nowy styl tytułu w headerze */
     .galactic-title {
-      text-align: center;
       font-size: 2.8rem;
-
-      /* Gradientowy tekst od #142266 do #4ccbdf */
-      background: linear-gradient(90deg, #142266 0%, #4ccbdf 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-
-      /* neonowe cienie w kolorach gradientu */
-      text-shadow:
-        0 0 3px #142266,
-        0 0 6px #2a3f7a,
-        0 0 10px #4ccbdf,
-        0 0 15px #4ccbdf;
-
-      transition: transform 0.3s ease, text-shadow 0.3s ease;
-      margin: 0.5em 0;
+      font-family: "Overpass Medium", sans-serif;
+      font-weight: 600;
+      color: #e0f7fa;
+      margin: 0;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+      transition: color 0.3s ease;
     }
 
     .galactic-title a {
@@ -105,21 +101,8 @@
       text-decoration: none;
     }
 
-    .galactic-title a:visited {
-      /* trochę ciemniejszy odcień */
-      color: #3aa9bf;
-      text-shadow:
-        0 0 2px #142266,
-        0 0 4px #2a3f7a;
-    }
-
-    .galactic-title:hover {
-      transform: scale(1.03);
-      text-shadow:
-        0 0 6px #142266,
-        0 0 12px #3a85a5,
-        0 0 18px #4ccbdf,
-        0 0 25px #4ccbdf;
+    .galactic-title a:hover {
+      color: #b3e5fc;
     }
 
     main h2 {

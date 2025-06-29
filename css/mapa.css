@@ -14,8 +14,8 @@
 
 .marker {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 14px;
+  height: 14px;
   background-color: #152468;
   border: 2px solid white;
   border-radius: 50%;
@@ -26,7 +26,33 @@
   z-index: 5;
 }
 
+/* Powiększenie przy hover */
 .marker:hover {
   transform: translate(-50%, -50%) scale(1.4);
   box-shadow: 0 0 12px rgba(21, 36, 104, 0.9);
+}
+
+/* Tooltip styl */
+.marker::after {
+  content: attr(title);
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #152468;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+/* Pokazuj tooltip po najechaniu */
+.marker:hover::after {
+  opacity: 1;
 }

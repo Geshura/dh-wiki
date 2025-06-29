@@ -31,6 +31,7 @@ layout: default
 	<div class="marker" style="top: 13.63%; left: 13.18%;" title="Wolny Ląd" data-link="{{ site.baseurl }}/krainy/wolny_lad.html"></div>
 	<button id="toggleMarkersBtn" style="position: absolute; top: 10px; right: 10px; z-index: 50; background: #0a74da; border: none; color: white; padding: 5px 12px; border-radius: 4px; cursor: pointer; font-family: 'Eveleth', sans-serif; font-weight: 600; font-size: 14px;">Ukryj markery</button>
 </div>
+
 <link rel="stylesheet" href="css/mapa.css" />
 <script src="js/mapa.js"></script>
 
@@ -60,7 +61,6 @@ layout: default
 	- [Państwo – Tharnheim (<strong>autor: Macieja</strong>)](/kontynent/semid/panstwo_tharnheim.md)
 	- [Państwo – Tong'Ariki (<strong>autor: Macieja</strong>)](/kontynent/semid/panstwo_tong_ariki.md)
 - [Zwierzch Boskiej Krwi (<strong>autor:  Piątek</strong>)](/kontynent/zwierzch_boskiej_krwi.md)
-
 
 ## Krainy
 - [Aztlan (<strong>autor: Piątek</strong>)](/krainy/aztlan.md)

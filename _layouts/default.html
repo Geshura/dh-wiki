@@ -48,7 +48,6 @@
       pointer-events: none;
     }
 
-    /* Nowy styl headera */
     header {
       background: linear-gradient(90deg, #142266, #4ccbdf);
       padding: 1.5rem 2rem;
@@ -85,7 +84,6 @@
       font-weight: 500;
     }
 
-    /* Nowy styl tytułu w headerze */
     .galactic-title {
       font-size: 2.8rem;
       font-family: "Overpass Medium", sans-serif;
@@ -142,6 +140,43 @@
       color: #ffffff;
       text-shadow: 0 0 5px #00e5ff;
     }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .galactic-title {
+        font-size: 2rem;
+      }
+
+      header {
+        padding: 1rem 1.5rem;
+      }
+
+      main {
+        padding: 1rem;
+      }
+
+      main h2 {
+        font-size: 1.2rem;
+        padding-left: 0.4rem;
+      }
+
+      main ul li {
+        font-size: 0.95rem;
+        padding-left: 0.3rem;
+      }
+
+      footer {
+        font-size: 0.8rem;
+        padding: 0.7rem;
+      }
+
+      #toggleMarkersBtn {
+        font-size: 12px;
+        padding: 6px 10px;
+        top: 8px;
+        right: 8px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -164,7 +199,6 @@
 
   <script>
     const background = document.getElementById('dynamic-gradient-background');
-
     document.addEventListener('mousemove', e => {
       const x = e.clientX / window.innerWidth;
       const y = e.clientY / window.innerHeight;

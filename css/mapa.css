@@ -1,48 +1,28 @@
+.map-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #444;
+}
+
+.map {
+  width: 100%;
+  display: block;
+}
+
 .marker {
   position: absolute;
-  width: 24px;
-  height: 24px;
-  background: radial-gradient(circle at center, #152468 0%, #152468 100%);
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  width: 16px;
+  height: 16px;
+  background-color: red;
+  border: 2px solid white;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  box-shadow:
-    0 0 10px rgba(21, 36, 104, 0.6),
-    0 0 20px rgba(21, 36, 104, 0.4),
-    inset 0 0 5px rgba(255, 255, 255, 0.2);
-  animation: pulse 2.5s infinite;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  z-index: 10;
+  transition: transform 0.2s, background-color 0.2s;
 }
 
 .marker:hover {
-  transform: translate(-50%, -50%) scale(1.5);
-  box-shadow:
-    0 0 15px rgba(21, 36, 104, 0.9),
-    0 0 30px rgba(21, 36, 104, 0.7),
-    inset 0 0 10px rgba(255, 255, 255, 0.3);
-  z-index: 20;
-}
-
-/* Pulsowanie dopasowane do granatu */
-@keyframes pulse {
-  0% {
-    box-shadow:
-      0 0 10px rgba(21, 36, 104, 0.6),
-      0 0 20px rgba(21, 36, 104, 0.4),
-      inset 0 0 5px rgba(255, 255, 255, 0.2);
-  }
-  50% {
-    box-shadow:
-      0 0 18px rgba(21, 36, 104, 0.9),
-      0 0 35px rgba(21, 36, 104, 0.6),
-      inset 0 0 10px rgba(255, 255, 255, 0.3);
-  }
-  100% {
-    box-shadow:
-      0 0 10px rgba(21, 36, 104, 0.6),
-      0 0 20px rgba(21, 36, 104, 0.4),
-      inset 0 0 5px rgba(255, 255, 255, 0.2);
-  }
+  background-color: yellow;
+  transform: translate(-50%, -50%) scale(1.2);
 }

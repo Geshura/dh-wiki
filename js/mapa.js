@@ -1,16 +1,22 @@
+// Otwarcie linku po kliknięciu markera
 document.querySelectorAll('.marker').forEach(marker => {
   marker.addEventListener('click', () => {
-    const link = marker.getAttribute('data-link');
-    if (link) {
-      window.location.href = link;
+    const url = marker.getAttribute('data-link');
+    if (url && url !== '#') {
+      window.open(url, '_blank');
     }
   });
 });
 
-const toggleBtn = document.getElementById('toggleMarkersBtn');
-toggleBtn?.addEventListener('click', () => {
-  const markers = document.querySelectorAll('.marker');
-  const areHidden = toggleBtn.textContent.includes('Pokaż');
-  markers.forEach(marker => marker.style.display = areHidden ? 'block' : 'none');
-  toggleBtn.textContent = areHidden ? 'Ukryj markery' : 'Pokaż markery';
+// Przełącznik widoczności markerów
+const btn = document.getElementById('toggleMarkersBtn');
+const markers = document.querySelectorAll('.marker');
+let visible = true;
+
+btn.addEventListener('click', () => {
+  visible = !visible;
+  markers.forEach(marker => {
+    marker.style.display = visible ? 'block' : 'none';
+  });
+  btn.textContent = visible ? 'Ukryj markery' : 'Pokaż markery';
 });

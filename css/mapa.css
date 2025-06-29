@@ -11,7 +11,7 @@
   margin: auto;
   border: 2px solid #444;
   user-select: none;
-  display: inline-block;
+  display: inline-block; /* dopasowanie do rozmiaru obrazu */
 }
 
 .map {
@@ -42,7 +42,6 @@
     border-color 0.3s ease;
   z-index: 10;
   font-family: 'Eveleth', sans-serif;
-  touch-action: manipulation;
 }
 
 .marker:hover {
@@ -71,6 +70,7 @@
   }
 }
 
+/* Napis z title pod kropeczką - zawsze widoczny */
 .marker::after {
   content: attr(title);
   position: absolute;
@@ -91,28 +91,4 @@
   box-shadow: 0 0 6px rgba(10, 116, 218, 0.7);
   z-index: 20;
   transition: opacity 0.3s ease;
-}
-
-@media (max-width: 600px) {
-  .map-container {
-    border-width: 1px;
-    padding: 0;
-  }
-
-  .marker {
-    width: 10px;
-    height: 10px;
-  }
-
-  .marker::after {
-    font-size: 10px;
-    padding: 2px 8px;
-  }
-
-  #toggleMarkersBtn {
-    font-size: 12px;
-    padding: 6px 10px;
-    top: 8px;
-    right: 8px;
-  }
 }

@@ -22,8 +22,8 @@ layout: default
 	<div class="marker" style="top: 41.66%; left: 76.17%;" title="Humanoidalny Las"></div>
 	<div class="marker" style="top: 36.89%; left: 89.45%;" title="Gora"></div>
 	<div class="marker" style="top: 66.14%; left: 67.19%;" title="Mykoria"></div>
-	<div class="marker" style="top: 93.96%; left: 79.49%;" title="Banan"></div>
-	<div class="marker" style="top: 60.14%; left: 84.21%;" title="Night City"></div>
+	<div class="marker" style="top: 93.96%; left: 79.49%;" title="Crathalon"></div>
+	<div class="marker" style="top: 60.14%; left: 84.21%;" title="Kerschal’Worr"></div>
 </div>
 
 <link rel="stylesheet" href="css/mapa.css" />

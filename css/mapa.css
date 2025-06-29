@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'EvelethClean';
+  src: url('./fonts/Eveleth-Clean-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .map-container {
   position: relative;
   max-width: 1000px;
@@ -25,30 +32,29 @@
   z-index: 5;
 }
 
-/* ZAWSZE pokazuj napis */
 .marker::after {
   content: attr(title);
   position: absolute;
-  top: -28px;
+  top: -30px;
   left: 50%;
   transform: translateX(-50%);
   background: #152468;
   color: white;
-  padding: 3px 8px;
+  padding: 4px 8px;
   border-radius: 6px;
   white-space: nowrap;
   font-size: 11px;
+  font-family: 'EvelethClean', sans-serif;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   opacity: 1;
   transition: opacity 0.2s ease;
 }
 
-/* Kiedy któryś marker jest hoverowany – ukryj wszystkie napisy... */
+/* Ukrywaj inne napisy przy hoverze */
 .map-container:hover .marker::after {
   opacity: 0;
 }
 
-/* ...poza tym, na który najechano */
 .map-container:hover .marker:hover::after {
   opacity: 1;
   z-index: 10;

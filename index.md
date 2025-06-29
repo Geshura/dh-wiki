@@ -7,23 +7,24 @@ layout: default
 <div class="map-container">
 	<img src="imgs/mapa.png" alt="Mapa" class="map" />
 	<!-- Przykładowe markery -->
-<div class="marker" style="top: 13.63%; left: 13.18%;" title="Wolny Ląd" data-link="/{{ site.baseurl }}/krainy/wolny_lad.html"></div>
-<div class="marker" style="top: 13.63%; left: 22.46%;" title="Solitas" data-link="/{{ site.baseurl }}/krainy/solitas.html"></div>
-<div class="marker" style="top: 21.98%; left: 24.41%;" title="Fama" data-link="/{{ site.baseurl }}/krainy/fama.html"></div>
-<div class="marker" style="top: 35.30%; left: 21.04%;" title="Excessus" data-link="/{{ site.baseurl }}/krainy/excessus.html"></div>
-<div class="marker" style="top: 36.89%; left: 29.79%;" title="Lautus" data-link="/{{ site.baseurl }}/krainy/lautus.html"></div>
-<div class="marker" style="top: 40.10%; left: 7.81%;" title="Aztlan" data-link="/{{ site.baseurl }}/krainy/aztlan.html"></div>
-<div class="marker" style="top: 52.12%; left: 24.90%;" title="Indignans" data-link="/{{ site.baseurl }}/krainy/indignans.html"></div>
-<div class="marker" style="top: 90.70%; left: 17.09%;" title="Kasamok" data-link="/{{ site.baseurl }}/krainy/kasamok.html"></div>
-<div class="marker" style="top: 73.45%; left: 48.83%;" title="Solmera" data-link="/{{ site.baseurl }}/krainy/solmera.html"></div>
-<div class="marker" style="top: 40.10%; left: 49.80%;" title="Step Perang" data-link="/{{ site.baseurl }}/krainy/step_perang.html"></div>
-<div class="marker" style="top: 18.79%; left: 55.15%;" title="Tsuulim" data-link="/{{ site.baseurl }}/krainy/tsuulim.html"></div>
-<div class="marker" style="top: 37.27%; left: 64.84%;" title="Tomek" data-link="/{{ site.baseurl }}/bg/tomek/postac.html"></div>
-<div class="marker" style="top: 41.66%; left: 76.17%;" title="Humanoidalny Las" data-link="/{{ site.baseurl }}/krainy/humanoidalny_las.html"></div>
-<div class="marker" style="top: 36.89%; left: 89.45%;" title="Gora" data-link="#"></div> <!-- brak linku -->
-<div class="marker" style="top: 66.14%; left: 67.19%;" title="Mykoria" data-link="/{{ site.baseurl }}/krainy/mykoria.html"></div>
-<div class="marker" style="top: 93.96%; left: 79.49%;" title="Crathalon" data-link="#"></div> <!-- brak linku -->
-<div class="marker" style="top: 60.14%; left: 84.21%;" title="Kerschal’Worr" data-link="/{{ site.baseurl }}/krainy/kerschal_worr.html"></div>
+<div class="marker" style="top: 13.63%; left: 13.18%;" title="Wolny Ląd" data-link="{{ site.baseurl }}/krainy/wolny_lad.html"></div>
+<div class="marker" style="top: 13.63%; left: 22.46%;" title="Solitas" data-link="{{ site.baseurl }}/krainy/solitas.html"></div>
+<div class="marker" style="top: 21.98%; left: 24.41%;" title="Fama" data-link="{{ site.baseurl }}/krainy/fama.html"></div>
+<div class="marker" style="top: 35.30%; left: 21.04%;" title="Excessus" data-link="{{ site.baseurl }}/krainy/excessus.html"></div>
+<div class="marker" style="top: 36.89%; left: 29.79%;" title="Lautus" data-link="{{ site.baseurl }}/krainy/lautus.html"></div>
+<div class="marker" style="top: 40.10%; left: 7.81%;" title="Aztlan" data-link="{{ site.baseurl }}/krainy/aztlan.html"></div>
+<div class="marker" style="top: 52.12%; left: 24.90%;" title="Indignans" data-link="{{ site.baseurl }}/krainy/indignans.html"></div>
+<div class="marker" style="top: 90.70%; left: 17.09%;" title="Kasamok" data-link="{{ site.baseurl }}/krainy/kasamok.html"></div>
+<div class="marker" style="top: 73.45%; left: 48.83%;" title="Solmera" data-link="{{ site.baseurl }}/krainy/solmera.html"></div>
+<div class="marker" style="top: 40.10%; left: 49.80%;" title="Step Perang" data-link="{{ site.baseurl }}/krainy/step_perang.html"></div>
+<div class="marker" style="top: 18.79%; left: 55.15%;" title="Tsuulim" data-link="{{ site.baseurl }}/krainy/tsuulim.html"></div>
+<div class="marker" style="top: 37.27%; left: 64.84%;" title="Tomek" data-link="{{ site.baseurl }}/bg/tomek/postac.html"></div>
+<div class="marker" style="top: 41.66%; left: 76.17%;" title="Humanoidalny Las" data-link="{{ site.baseurl }}/krainy/humanoidalny_las.html"></div>
+<div class="marker" style="top: 36.89%; left: 89.45%;" title="Gora" data-link="#"></div>
+<div class="marker" style="top: 66.14%; left: 67.19%;" title="Mykoria" data-link="{{ site.baseurl }}/krainy/mykoria.html"></div>
+<div class="marker" style="top: 93.96%; left: 79.49%;" title="Crathalon" data-link="#"></div>
+<div class="marker" style="top: 60.14%; left: 84.21%;" title="Kerschal’Worr" data-link="{{ site.baseurl }}/krainy/kerschal_worr.html"></div>
+
 </div>
 
 <link rel="stylesheet" href="css/mapa.css" />

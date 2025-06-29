@@ -1,48 +1,97 @@
+@font-face {
+  font-family: 'Eveleth';
+  src: url('./fonts/Eveleth-Clean-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.map-container {
+  position: relative; /* kluczowe dla absolutnego pozycjonowania markerów */
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #444;
+  user-select: none;
+}
+
+.map {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
 .marker {
   position: absolute;
   width: 24px;
   height: 24px;
-  background: radial-gradient(circle at center, #152468 0%, #304d9f 80%);
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  background: radial-gradient(circle at center, #152468 0%, #0b1846 80%);
+  border: 2px solid rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  box-shadow: 
+  box-shadow:
     0 0 10px rgba(21, 36, 104, 0.7),
-    0 0 20px rgba(48, 77, 159, 0.5),
+    0 0 20px rgba(11, 24, 70, 0.5),
     inset 0 0 5px rgba(255, 255, 255, 0.3);
-  animation: pulse 2.5s infinite;
-  transition: 
-    transform 0.3s ease, 
-    box-shadow 0.3s ease, 
-    background 0.3s ease, 
-    border-color 0.3s ease;
+  animation: pulse 2s infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
   z-index: 10;
+  font-family: 'Eveleth', sans-serif;
 }
 
 .marker:hover {
   transform: translate(-50%, -50%) scale(1.6);
-  background: radial-gradient(circle at center, #ffd700 0%, #bfa300 80%);
-  border-color: #ffd700;
-  box-shadow: 
-    0 0 15px rgba(255, 215, 0, 0.9),
-    0 0 30px rgba(255, 215, 0, 0.7),
+  background-color: #FFD700; /* złoty */
+  border-color: #FFD700;
+  box-shadow:
+    0 0 15px #FFD700,
+    0 0 30px #FFD700,
     inset 0 0 8px rgba(255, 255, 255, 0.4);
   z-index: 15;
 }
 
-/* Efekt pulsowania box-shadow i inset */
+/* Efekt pulsowania */
 @keyframes pulse {
-  0%, 100% {
-    box-shadow: 
+  0% {
+    box-shadow:
       0 0 10px rgba(21, 36, 104, 0.7),
-      0 0 20px rgba(48, 77, 159, 0.5),
+      0 0 20px rgba(11, 24, 70, 0.5),
       inset 0 0 5px rgba(255, 255, 255, 0.3);
   }
   50% {
-    box-shadow: 
+    box-shadow:
       0 0 20px rgba(21, 36, 104, 1),
-      0 0 40px rgba(48, 77, 159, 0.8),
+      0 0 40px rgba(11, 24, 70, 0.8),
       inset 0 0 10px rgba(255, 255, 255, 0.6);
   }
+  100% {
+    box-shadow:
+      0 0 10px rgba(21, 36, 104, 0.7),
+      0 0 20px rgba(11, 24, 70, 0.5),
+      inset 0 0 5px rgba(255, 255, 255, 0.3);
+  }
 }
+
+/* Napis z title pod kropeczką - zawsze widoczny */
+.marker::after {
+  content: attr(title);
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 2px 8px;
+  font-family: 'Eveleth', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  background: linear-gradient(135deg, #152468, #0b1846);
+  color: white;
+  border-radius: 4px;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.85;
+  box-shadow: 0 0 8px rgba(21, 36, 104, 0.9);
+  z-index: 20;
+  transition: opacity 0.3s ease;
+}
+
+/* Możesz dodać efekt zanikania innych napisów przy hover na konkretny marker w JS */

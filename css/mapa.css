@@ -1,118 +1,64 @@
-@font-face {
-  font-family: 'Eveleth';
-  src: url('./fonts/Eveleth-Clean-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 .map-container {
   position: relative;
-  max-width: 1000px;
-  margin: auto;
-  border: 2px solid #444;
-  user-select: none;
-  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  font-family: 'Eveleth', sans-serif;
 }
 
-.map {
+.map-container img.map {
   width: 100%;
-  display: block;
   height: auto;
-  user-select: none;
+  display: block;
 }
 
 .marker {
   position: absolute;
-  width: 12px;
-  height: 12px;
-  background: radial-gradient(circle at center, #0a74da 0%, #023e8a 80%);
-  border: 2px solid rgba(255, 255, 255, 0.9);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(10, 116, 218, 0.8);
   border-radius: 50%;
-  transform: translate(-50%, -50%);
   cursor: pointer;
-  box-shadow:
-    0 0 8px rgba(10, 116, 218, 0.8),
-    0 0 20px rgba(2, 62, 138, 0.6),
-    inset 0 0 6px rgba(255, 255, 255, 0.3);
-  animation: pulse 2.5s ease-in-out infinite;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    background 0.3s ease,
-    border-color 0.3s ease;
-  z-index: 10;
-  font-family: 'Eveleth', sans-serif;
-  touch-action: manipulation;
+  border: 2px solid white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  /* Opcjonalnie: dodać ikonę lub inny styl */
 }
 
 .marker:hover {
-  transform: translate(-50%, -50%) scale(1.5);
-  background: radial-gradient(circle at center, #ffd700 0%, #b8860b 80%);
-  border-color: #ffd700;
-  box-shadow:
-    0 0 18px #ffd700,
-    0 0 36px #b8860b,
-    inset 0 0 10px rgba(255, 255, 255, 0.6);
-  z-index: 15;
+  background-color: rgba(10, 116, 218, 1);
 }
 
-@keyframes pulse {
-  0%, 100% {
-    box-shadow:
-      0 0 8px rgba(10, 116, 218, 0.8),
-      0 0 20px rgba(2, 62, 138, 0.6),
-      inset 0 0 6px rgba(255, 255, 255, 0.3);
-  }
-  50% {
-    box-shadow:
-      0 0 20px rgba(10, 116, 218, 1),
-      0 0 40px rgba(2, 62, 138, 0.9),
-      inset 0 0 12px rgba(255, 255, 255, 0.6);
-  }
-}
-
-.marker::after {
-  content: attr(title);
+#toggleMarkersBtn {
   position: absolute;
-  top: 150%;
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  padding: 3px 10px;
-  font-family: 'Eveleth', sans-serif;
-  font-size: 12px;
-  font-weight: 500;
-  background: linear-gradient(135deg, #0a74da, #023e8a);
+  top: 10px;
+  right: 10px;
+  z-index: 50;
+  background: #0a74da;
+  border: none;
   color: white;
+  padding: 5px 12px;
   border-radius: 4px;
-  pointer-events: none;
-  user-select: none;
-  opacity: 0.9;
-  box-shadow: 0 0 6px rgba(10, 116, 218, 0.7);
-  z-index: 20;
-  transition: opacity 0.3s ease;
+  cursor: pointer;
+  font-family: 'Eveleth', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
+#toggleMarkersBtn:hover {
+  background-color: #095bb5;
+}
+
+/* Responsywne zmniejszenie na ekranach do 600px szerokości */
 @media (max-width: 600px) {
-  .map-container {
-    border-width: 1px;
-    padding: 0;
-  }
-
   .marker {
-    width: 10px;
-    height: 10px;
-  }
-
-  .marker::after {
-    font-size: 10px;
-    padding: 2px 8px;
+    width: 18px;
+    height: 18px;
+    border-width: 1.5px;
   }
 
   #toggleMarkersBtn {
     font-size: 12px;
-    padding: 6px 10px;
-    top: 8px;
-    right: 8px;
+    padding: 4px 8px;
   }
 }

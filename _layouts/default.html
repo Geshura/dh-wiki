@@ -81,23 +81,48 @@
     }
 
     
+.galactic-title {
+  text-align: center;
+  font-size: 2.8rem;
 
-  .galactic-title {
-    font-size: 4rem;
-    font-weight: 900;
-    background: linear-gradient(90deg, #142266 0%, #4ccbdf 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow:
-      0 0 5px #142266,
-      0 0 10px #142266,
-      0 0 20px #4ccbdf,
-      0 0 30px #4ccbdf,
-      0 0 40px #4ccbdf,
-      0 0 55px #4ccbdf,
-      0 0 75px #4ccbdf;
-    letter-spacing: 2px;
-    user-select: none;
+  /* Gradientowy tekst od #142266 do #4ccbdf */
+  background: linear-gradient(90deg, #142266 0%, #4ccbdf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* neonowe cienie w kolorach gradientu */
+  text-shadow:
+    0 0 3px #142266,
+    0 0 6px #2a3f7a,
+    0 0 10px #4ccbdf,
+    0 0 15px #4ccbdf;
+
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+  margin: 0.5em 0;
+}
+
+.galactic-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.galactic-title a:visited {
+  /* trochę ciemniejszy odcień */
+  color: #3aa9bf;
+  text-shadow:
+    0 0 2px #142266,
+    0 0 4px #2a3f7a;
+}
+
+.galactic-title:hover {
+  transform: scale(1.03);
+  text-shadow:
+    0 0 6px #142266,
+    0 0 12px #3a85a5,
+    0 0 18px #4ccbdf,
+    0 0 25px #4ccbdf;
+}
+
 
 
 

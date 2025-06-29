@@ -5,7 +5,7 @@ layout: default
 
 # Mapa
 <div class="map-container">
-	<img src="imgs/mapa.png" alt="Mapa" class="map" />
+	<img src="imgs/mapa.jpg" alt="Mapa" class="map" />
 	<!-- Przykładowe markery -->
 	<div class="marker" style="top: 40.10%; left: 7.81%;" title="Aztlan" data-link="{{ site.baseurl }}/krainy/aztlan.html"></div>
 	<div class="marker" style="top: 93.96%; left: 79.49%;" title="Crathalon" data-link="{{ site.baseurl }}/krainy/crathalon.html"></div>

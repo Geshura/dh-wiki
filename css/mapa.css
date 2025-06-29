@@ -6,7 +6,7 @@
 }
 
 .map-container {
-  position: relative; /* kluczowe dla absolutnego pozycjonowania markerów */
+  position: relative;
   max-width: 1000px;
   margin: auto;
   border: 2px solid #444;
@@ -21,53 +21,52 @@
 
 .marker {
   position: absolute;
-  width: 24px;
-  height: 24px;
-  background: radial-gradient(circle at center, #152468 0%, #0b1846 80%);
+  width: 18px;
+  height: 18px;
+  background: radial-gradient(circle at center, #1a2a6c 0%, #0d1b3a 80%);
   border: 2px solid rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   cursor: pointer;
   box-shadow:
-    0 0 10px rgba(21, 36, 104, 0.7),
-    0 0 20px rgba(11, 24, 70, 0.5),
-    inset 0 0 5px rgba(255, 255, 255, 0.3);
-  animation: pulse 2s infinite;
+    0 0 8px rgba(26, 42, 108, 0.8),
+    0 0 16px rgba(13, 27, 58, 0.6),
+    inset 0 0 4px rgba(255, 255, 255, 0.3);
+  animation: pulse 2.2s infinite;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
   z-index: 10;
   font-family: 'Eveleth', sans-serif;
 }
 
 .marker:hover {
-  transform: translate(-50%, -50%) scale(1.6);
+  transform: translate(-50%, -50%) scale(1.5);
   background-color: #FFD700; /* złoty */
   border-color: #FFD700;
   box-shadow:
-    0 0 15px #FFD700,
-    0 0 30px #FFD700,
-    inset 0 0 8px rgba(255, 255, 255, 0.4);
+    0 0 14px #FFD700,
+    0 0 28px #FFD700,
+    inset 0 0 6px rgba(255, 255, 255, 0.5);
   z-index: 15;
 }
 
-/* Efekt pulsowania */
 @keyframes pulse {
   0% {
     box-shadow:
-      0 0 10px rgba(21, 36, 104, 0.7),
-      0 0 20px rgba(11, 24, 70, 0.5),
-      inset 0 0 5px rgba(255, 255, 255, 0.3);
+      0 0 8px rgba(26, 42, 108, 0.8),
+      0 0 16px rgba(13, 27, 58, 0.6),
+      inset 0 0 4px rgba(255, 255, 255, 0.3);
   }
   50% {
     box-shadow:
-      0 0 20px rgba(21, 36, 104, 1),
-      0 0 40px rgba(11, 24, 70, 0.8),
-      inset 0 0 10px rgba(255, 255, 255, 0.6);
+      0 0 16px rgba(26, 42, 108, 1),
+      0 0 32px rgba(13, 27, 58, 0.9),
+      inset 0 0 8px rgba(255, 255, 255, 0.6);
   }
   100% {
     box-shadow:
-      0 0 10px rgba(21, 36, 104, 0.7),
-      0 0 20px rgba(11, 24, 70, 0.5),
-      inset 0 0 5px rgba(255, 255, 255, 0.3);
+      0 0 8px rgba(26, 42, 108, 0.8),
+      0 0 16px rgba(13, 27, 58, 0.6),
+      inset 0 0 4px rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -93,5 +92,3 @@
   z-index: 20;
   transition: opacity 0.3s ease;
 }
-
-/* Możesz dodać efekt zanikania innych napisów przy hover na konkretny marker w JS */

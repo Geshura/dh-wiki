@@ -1,15 +1,13 @@
-theme: null
 title: Daggerheart
+baseurl: "/dh-wiki"  # <-- to jest poprawna linia
+url: "https://geshura.github.io"  # <-- to też musi być na głównym poziomie
+theme: null
 
 defaults:
-  -
-    scope:
-        baseurl: "/dh-wiki" 
-        url: "https://geshura.github.io"
-        path: ""
-        type: "pages"
-        values:
-        layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 plugins:
   - jekyll-feed

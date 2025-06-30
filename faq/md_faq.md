@@ -1,3 +1,9 @@
+---
+title: Spis treści
+layout: default
+---
+
+```md
 basic text
 # Title
 tytul robisz poprzez # i spacje bezposrednio po nim
@@ -13,7 +19,7 @@ to samo co poprzednio tylko trzy ###
 | Wiek                 | 28                                                               |
 | Miejsce urodzanie    | Chicago                                                          |
 | Miejsce zamieszkania | Chicago                                                          |
-| Rodzina              | Ojciec Matthew Capone<br>Matka Annette Capone<br>Wujek Al Capone |
+| Rodzina              | Ojciec Matthew Capone&lt;br&gt;Matka Annette Capone&lt;br&gt;Wujek Al Capone |
 | Choroby              |                                                                  |
 
 #### I tak dalej
@@ -35,10 +41,8 @@ Connection
 
 `Code for example in pyhton or C++ print()`
 
-
 > [!NOTE] Title
 > Contents
-
 
 > [!infobox] 
 > # Name 
@@ -66,9 +70,8 @@ Connection
 > 
 > # Heading 1
 > - Bullet list
-> 	- Testing
-> 	- Testing
+>     - Testing
+>     - Testing
 > - Testing
-
-
-
+```
+<link rel="stylesheet" href="{{ '/css/codetag.css' | relative_url }}">

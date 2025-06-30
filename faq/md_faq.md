@@ -77,7 +77,6 @@ Connection
 ```
 
 # Wynik
-<pre><code>
 basic text
 # Title
 tytul robisz poprzez # i spacje bezposrednio po nim
@@ -147,6 +146,5 @@ Connection
 >     - Testing
 >     - Testing
 > - Testing
-</code></pre>
 
 <link rel="stylesheet" href="{{ '/css/codetag.css' | relative_url }}">

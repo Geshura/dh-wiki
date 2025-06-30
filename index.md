@@ -40,7 +40,7 @@ layout: default
 - [1. Dysk Google (<strong>autor:  Piątek</strong>)](https://drive.google.com/drive/folders/1GFklnDQGFFPF7JOWWfYLlr80uNaEIMYI)
 - [2. Karta Postaci (<strong>autor: Michał, Piątek</strong>)](https://drive.google.com/drive/folders/1LXRA0Y8f1XoNj5zDWEvirX41jlH0Epsw)
 - [3. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/faq/makro.md)
-- [1. FAQ Wikipedia (<strong>autor:  Michał</strong>)](/faq/faq_wikipedia.md)
+- [4. FAQ Wikipedia (<strong>autor:  Michał</strong>)](/faq/faq_wikipedia.md)
 - [5. FAQ Obsidian (.md) (<strong>autor:  Macieja</strong>)](/faq/faq_md.md)
 
 ## Świat

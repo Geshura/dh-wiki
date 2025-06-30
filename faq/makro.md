@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Kod:
-<pre><code>
+```text
 &{template:default}
 {{name=🎲 Rzut Daggerheart}}
 {{🌞 Nadzieja=[[1d12]]}}
@@ -12,6 +12,6 @@ layout: default
 {{🌞＝🌑 = KRYTYK}}
 {{🌞>🌑 = z Nadzieją}}
 {{🌞<🌑 = ze Strachem}}
-</code></pre>
+```
 
 <link rel="stylesheet" href="{{ '/css/codetag.css' | relative_url }}">

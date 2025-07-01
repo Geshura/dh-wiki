@@ -37,25 +37,31 @@ Osoby, które nigdy wcześniej nie miały kontaktu z Mykrostem, doświadczają s
   <div class="caption">Stworzenie o długości około 1 metra, będące połączeniem cech komara, trzmiela i świetlika. Jego półprzezroczyste skrzydła szeleszczą cicho podczas lotu. Żywi się sokami wielkich grzybów Mykorii, które dzięki temu wpływają na intensywność i barwę emitowanego przez niego światła — świeci mocniej i żywiej niż jakikolwiek inny organizm w krainie. Emitowane światło służy zarówno wabieniu drobnych owadów, jak i komunikacji w gęstej, mglisto-pyłowej atmosferze.</div>
 </div>
 
-
 ---
 
 ### 2. Hydrathal
-<img src="mykoria/mapa.jpg" alt="Hydrathal" class="map" />
-
-Stworzenie o budowie łączącej cechy salamandry i wydry, zamieszkujące głównie okolice wodospadów otaczających Mykorię. Ma gładką, śliską, lecz grubą skórę odporną na ciągłą wilgoć i kontakt z toksycznym pyłem Mykrostu. Jest terytorialna i agresywna, broni dostępu do wodospadów, które stanowią naturalne granice krainy. Salamandra wodospadowa uniemożliwia opuszczenie Mykorii niepowołanym, patrolując brzegi i atakując intruzów.
+<div class="concept-art">
+  <img src="mykoria/Hydrathal.png" alt="Hydrathal">
+  <div class="caption">Stworzenie o budowie łączącej cechy salamandry i wydry, zamieszkujące głównie okolice wodospadów otaczających Mykorię. Ma gładką, śliską, lecz grubą skórę odporną na ciągłą wilgoć i kontakt z toksycznym pyłem Mykrostu. Jest terytorialna i agresywna, broni dostępu do wodospadów, które stanowią naturalne granice krainy. Salamandra wodospadowa uniemożliwia opuszczenie Mykorii niepowołanym, patrolując brzegi i atakując intruzów.</div>
+</div>
 
 ---
 
 ### 3. Syzmarin
-<img src="mykoria/mapa.jpg" alt="Syzmarin" class="map" />
+<div class="concept-art">
+  <img src="mykoria/Syzmarin.png" alt="Syzmarin">
+  <div class="caption">Niewielkie stworzenie o długości około 40 cm, łączące cechy kameleona i patyczaka z liśćmi. Potrafi perfekcyjnie zmieniać kolor i fakturę skóry, upodabniając się do liści, gałęzi i grzybowych kapeluszy. Ma wydłużone ciało i cienkie odnóża, dzięki którym przypomina suchy liść poruszany wiatrem. Ta kamuflażowa zdolność pozwala mu przetrwać w gęstym, grzybowym lesie i unikać drapieżników.</div>
+</div>
 
-Niewielkie stworzenie o długości około 40 cm, łączące cechy kameleona i patyczaka z liśćmi. Potrafi perfekcyjnie zmieniać kolor i fakturę skóry, upodabniając się do liści, gałęzi i grzybowych kapeluszy. Ma wydłużone ciało i cienkie odnóża, dzięki którym przypomina suchy liść poruszany wiatrem. Ta kamuflażowa zdolność pozwala mu przetrwać w gęstym, grzybowym lesie i unikać drapieżników.
+---
 
 ### 4. Mykareon
-<img src="mykoria/mykareon.jpg" alt="Mykareon" class="map" />
+<div class="concept-art">
+  <img src="mykoria/Mykareon.png" alt="Mykareon">
+  <div class="caption">Latający organizm o kształcie przypominającym meduzę, którego parasolowaty, przezroczysty kapelusz delikatnie świeci bladozielonym światłem. Porusza się po niebie Mykorii, unosząc się na ciepłych prądach powietrza. Gdy zetknie się z innym grzybem lub podobnym organizmem, nagle zyskuje impuls energii, odbija się i przyspiesza lot, rozsiewając wokół siebie pył Mykrostu, który wpływa na dalsze przemiany środowiska. Jest symbolem i czynnikiem ciągłej ewolucji ekosystemu Mykorii.</div>
+</div>
 
-Latający organizm o kształcie przypominającym meduzę, którego parasolowaty, przezroczysty kapelusz delikatnie świeci bladozielonym światłem. Porusza się po niebie Mykorii, unosząc się na ciepłych prądach powietrza. Gdy zetknie się z innym grzybem lub podobnym organizmem, nagle zyskuje impuls energii, odbija się i przyspiesza lot, rozsiewając wokół siebie pył Mykrostu, który wpływa na dalsze przemiany środowiska. Jest symbolem i czynnikiem ciągłej ewolucji ekosystemu Mykorii.
+
 
 
 [⬅️ Wróć do spisu treści](../index.md)

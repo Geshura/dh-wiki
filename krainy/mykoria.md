@@ -22,9 +22,38 @@ Roślinność Mykorii jest znacznie większa niż w dawnym Humanoidalnym Lesie. 
 ---
 
 ### 1. Mykrost
-Mykrost to drobny, niemal eteryczny pył unoszący się w powietrzu Mykorii, powstały w wyniku uderzenia kosmicznego obiektu. Składa się z mikroskopijnych cząstek grzybni i minerałów o świetlistych właściwościach. Pył ten przenika cały ekosystem, oddziałując na rośliny i zwierzęta, powodując niezwykłe mutacje i przyspieszając ewolucję.
+<div class="concept-art">
+  <img src="mykoria/Mykrost.png" alt="Mykrost">
+  <div class="caption">Mykrost to drobny, niemal eteryczny pył unoszący się w powietrzu Mykorii, powstały w wyniku uderzenia kosmicznego obiektu. Składa się z mikroskopijnych cząstek grzybni i minerałów o świetlistych właściwościach. Pył ten przenika cały ekosystem, oddziałując na rośliny i zwierzęta, powodując niezwykłe mutacje i przyspieszając ewolucję.
 
-Osoby, które nigdy wcześniej nie miały kontaktu z Mykrostem, doświadczają silnej wysypki i podrażnień skóry przy pierwszym zetknięciu. Z każdym kolejnym kontaktem reakcje organizmu słabną, a skóra stopniowo przyzwyczaja się do pyłu. Jednak niektóre jednostki wykazują wyjątkowo silną nadwrażliwość — rozwijają u nich objawy przypominające przewlekłe stany zapalne, prowadzące do zmęczenia, bólu mięśni, gorączki i powiększenia węzłów chłonnych, co w ekstremalnych przypadkach uniemożliwia dłuższe przebywanie na terenie Mykorii.
+Osoby, które nigdy wcześniej nie miały kontaktu z Mykrostem, doświadczają silnej wysypki i podrażnień skóry przy pierwszym zetknięciu. Z każdym kolejnym kontaktem reakcje organizmu słabną, a skóra stopniowo przyzwyczaja się do pyłu. Jednak niektóre jednostki wykazują wyjątkowo silną nadwrażliwość — rozwijają u nich objawy przypominające przewlekłe stany zapalne, prowadzące do zmęczenia, bólu mięśni, gorączki i powiększenia węzłów chłonnych, co w ekstremalnych przypadkach uniemożliwia dłuższe przebywanie na terenie Mykorii.</div>
+</div>
+
+
+### 2. Zefyrlia
+<div class="concept-art">
+  <img src="mykoria/Zefyrlia.png" alt="Zefyrlia">
+  <div class="caption">Rosnąca w skupiskach pośród dolinnych mgieł Zefyrlia przypomina zmutowaną mieszaninę wiciokrzewu, dmuchawca i meduzy. Jej długie pędy zakończone są półprzezroczystymi pęcherzami, które unoszą się lekko nad ziemią dzięki lekkim gazom. Gaz powstaje jako efekt fermentacji soków Mykrostowych, które Zefyrlia wchłania przez korzenie. Pęcherze świecą ciepłym, bursztynowym światłem – nocą tworząc świetliste połacie przypominające odwrócone niebo. Gdy dotknięta, eksploduje cicho, rozrzucając lepką, żarzącą się mgiełkę. Wysuszone łodygi są zbierane przez mieszkańców Mykorii jako źródło ognia. Uważa się, że Zefyrlia to jedna z pierwszych roślin, które „nauczyły się żyć z Mykrostem”.</div>
+</div>
+
+
+### 3. Cryolam
+<div class="concept-art">
+  <img src="mykoria/Cryolam.png" alt="Cryolam">
+  <div class="caption">Gęsty, matowy porost przypominający połączenie mchu z rafą koralową. Rośnie w cieniu wielkich grzybów, gdzie wilgoć i cień sprzyjają jego rozrostowi. Jego powierzchnia pokryta jest srebrzystymi włoskami, przez co wygląda jak oszroniona nawet w cieplejszych porach. Mirglot absorbuje Mykrost i przekształca go w chłodzący biokondensat, który powoli odparowuje, obniżając lokalnie temperaturę nawet o kilka stopni. Gdy dotknięty nagle, reaguje sykiem i nagłym skurczeniem — jakby się bał. Co ciekawe, zwierzęta ranne lub przegrzane często kładą się na nim, by odzyskać siły. Zielarze Mykorii wykorzystują go do tworzenia maści chłodzących i przeciwgorączkowych.</div>
+</div>
+
+### 4. Mycospira
+<div class="concept-art">
+  <img src="mykoria/Mycospira.png" alt="Mycospira">
+  <div class="caption">Wysoka, chwiejąca się grzybnia, osiągająca nawet 3 metry, zbudowana z cienkich trzonów zakończonych półprzezroczystymi kapeluszami przypominającymi bańki mydlane. Kapelusze te pulsują w rytmie niewidzialnego wiatru, a czasem zdają się "oddychać". Roślina reaguje na fale dźwiękowe – głośniejsze dźwięki lub śpiew wywołują jej nagłą reakcję: trzon wypręża się, a kapelusz otwiera, wyrzucając zarodniki w powietrze. Zarodniki mają właściwości neuroaktywne – powodują krótkotrwałe halucynacje, euforię lub stany przypominające sen. Dla nieprzyzwyczajonych — mogą być paraliżujące. Bywa stosowana ceremonialnie przez klany żyjące głęboko w Mykorii.</div>
+</div>
+
+### 5. Fibroven
+<div class="concept-art">
+  <img src="mykoria/Fibroven.png" alt="Fibroven">
+  <div class="caption">Splątana, pajęczynowata roślina przypominająca jednocześnie liany i sieć pajęczą. Zwisa z wysokich grzybodrzew, tworząc mgiełkę włókien. Są one lepkie i półprzezroczyste, a przy poruszeniu drżą, wydając dźwięk przypominający tkanie nici. Niektóre zwierzęta używają jej do budowy gniazd. Lianasis rośnie tylko tam, gdzie powietrze jest przesycone Mykrostem. Inspiracja: pajęczyny, tilandsje, wiciokrzew, pnącza tropikalne.</div>
+</div>
 
 ## Fauna
 

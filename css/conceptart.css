@@ -1,46 +1,37 @@
-/* conceptart.css – styl dedykowany do wyświetlania grafik koncepcyjnych */
+/* conceptart.css – uproszczony styl dla grafik koncepcyjnych */
 
 .concept-art-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
-  background: radial-gradient(circle at center, #1a1f1a, #0e0f0e);
-  color: #e0e0dc;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: #0e0f0e;
 }
 
 .concept-art {
-  position: relative;
-  border: 2px solid rgba(255, 255, 255, 0.05);
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 0 12px rgba(85, 255, 170, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-color: #141514;
   max-width: 500px;
-  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(120, 255, 180, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .concept-art:hover {
-  transform: scale(1.03);
-  box-shadow: 0 0 20px rgba(120, 255, 180, 0.3);
+  transform: scale(1.02);
 }
 
 .concept-art img {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 14px;
-  filter: brightness(0.95) contrast(1.05) saturate(1.1);
+  filter: brightness(0.95) contrast(1.05);
 }
 
 .caption {
-  padding: 0.75rem 1rem;
-  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
   font-style: italic;
   color: #b8ccb8;
-  background-color: rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(3px);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background: #121412;
 }

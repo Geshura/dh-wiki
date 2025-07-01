@@ -1,37 +1,31 @@
-/* conceptart.css – uproszczony styl dla grafik koncepcyjnych */
-
-.concept-art-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-  padding: 1.5rem;
-  background: #0e0f0e;
-}
+/* Styl dla pojedynczej prezentacji concept artu */
 
 .concept-art {
-  max-width: 500px;
+  max-width: 600px;
+  margin: 2rem auto;
   border-radius: 12px;
+  background-color: #101110;
+  box-shadow: 0 0 12px rgba(100, 255, 200, 0.1);
   overflow: hidden;
-  box-shadow: 0 0 10px rgba(120, 255, 180, 0.1);
   transition: transform 0.3s ease;
 }
 
 .concept-art:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
 .concept-art img {
   display: block;
   width: 100%;
   height: auto;
-  filter: brightness(0.95) contrast(1.05);
+  filter: brightness(0.9) contrast(1.05);
 }
 
 .caption {
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
+  padding: 1rem;
+  font-size: 0.95rem;
   font-style: italic;
-  color: #b8ccb8;
-  background: #121412;
+  color: #c7d7c7;
+  background: #151815;
+  line-height: 1.6;
 }

@@ -32,9 +32,9 @@ Osoby, które nigdy wcześniej nie miały kontaktu z Mykrostem, doświadczają s
 ---
 
 ### 1. Luminryl
-	<div class="concept-art">
-		<img src="mykoria/Luminryl.png" alt="Luminryl">
-		<div class="caption">Stworzenie o długości około 1 metra, będące połączeniem cech komara, trzmiela i świetlika. Jego półprzezroczyste skrzydła szeleszczą cicho podczas lotu. Żywi się sokami wielkich grzybów Mykorii, które dzięki temu wpływają na intensywność i barwę emitowanego przez niego światła — świeci mocniej i żywiej niż jakikolwiek inny organizm w krainie. Emitowane światło służy zarówno wabieniu drobnych owadów, jak i komunikacji w gęstej, mglisto-pyłowej atmosferze.</div>
+<div class="concept-art-container">
+	<img src="mykoria/Luminryl.png" alt="Luminryl">
+	<div class="caption">Stworzenie o długości około 1 metra, będące połączeniem cech komara, trzmiela i świetlika. Jego półprzezroczyste skrzydła szeleszczą cicho podczas lotu. Żywi się sokami wielkich grzybów Mykorii, które dzięki temu wpływają na intensywność i barwę emitowanego przez niego światła — świeci mocniej i żywiej niż jakikolwiek inny organizm w krainie. Emitowane światło służy zarówno wabieniu drobnych owadów, jak i komunikacji w gęstej, mglisto-pyłowej atmosferze.</div>
 </div>
 
 ---

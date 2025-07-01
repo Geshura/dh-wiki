@@ -27,9 +27,6 @@ Mykrost to drobny, niemal eteryczny pył unoszący się w powietrzu Mykorii, pow
 Osoby, które nigdy wcześniej nie miały kontaktu z Mykrostem, doświadczają silnej wysypki i podrażnień skóry przy pierwszym zetknięciu. Z każdym kolejnym kontaktem reakcje organizmu słabną, a skóra stopniowo przyzwyczaja się do pyłu. Jednak niektóre jednostki wykazują wyjątkowo silną nadwrażliwość — rozwijają u nich objawy przypominające przewlekłe stany zapalne, prowadzące do zmęczenia, bólu mięśni, gorączki i powiększenia węzłów chłonnych, co w ekstremalnych przypadkach uniemożliwia dłuższe przebywanie na terenie Mykorii.
 
 ## Fauna
-"Fantasy creature, 1 meter long, a hybrid between a mosquito, bumblebee, and firefly. Semi-transparent wings with delicate veins, softly glowing bioluminescent patches along its body. It hovers near giant glowing mushrooms, sucking their sap. Emits warm, vibrant light from its body, illuminating the misty, mysterious forest. Realistic style, detailed textures, soft glowing effects."
-
----
 
 ### 1. Luminryl
 <div class="concept-art">
@@ -37,23 +34,17 @@ Osoby, które nigdy wcześniej nie miały kontaktu z Mykrostem, doświadczają s
   <div class="caption">Stworzenie o długości około 1 metra, będące połączeniem cech komara, trzmiela i świetlika. Jego półprzezroczyste skrzydła szeleszczą cicho podczas lotu. Żywi się sokami wielkich grzybów Mykorii, które dzięki temu wpływają na intensywność i barwę emitowanego przez niego światła — świeci mocniej i żywiej niż jakikolwiek inny organizm w krainie. Emitowane światło służy zarówno wabieniu drobnych owadów, jak i komunikacji w gęstej, mglisto-pyłowej atmosferze.</div>
 </div>
 
----
-
 ### 2. Hydrathal
 <div class="concept-art">
   <img src="mykoria/Hydrathal.png" alt="Hydrathal">
   <div class="caption">Stworzenie o budowie łączącej cechy salamandry i wydry, zamieszkujące głównie okolice wodospadów otaczających Mykorię. Ma gładką, śliską, lecz grubą skórę odporną na ciągłą wilgoć i kontakt z toksycznym pyłem Mykrostu. Jest terytorialna i agresywna, broni dostępu do wodospadów, które stanowią naturalne granice krainy. Salamandra wodospadowa uniemożliwia opuszczenie Mykorii niepowołanym, patrolując brzegi i atakując intruzów.</div>
 </div>
 
----
-
 ### 3. Syzmarin
 <div class="concept-art">
   <img src="mykoria/Syzmarin.png" alt="Syzmarin">
   <div class="caption">Niewielkie stworzenie o długości około 40 cm, łączące cechy kameleona i patyczaka z liśćmi. Potrafi perfekcyjnie zmieniać kolor i fakturę skóry, upodabniając się do liści, gałęzi i grzybowych kapeluszy. Ma wydłużone ciało i cienkie odnóża, dzięki którym przypomina suchy liść poruszany wiatrem. Ta kamuflażowa zdolność pozwala mu przetrwać w gęstym, grzybowym lesie i unikać drapieżników.</div>
 </div>
-
----
 
 ### 4. Mykareon
 <div class="concept-art">

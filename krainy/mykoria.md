@@ -8,18 +8,20 @@ layout: default
 
 Mykoria to gęsto zalesiona, mistyczna kraina rozciągająca się na północ od Kerschal’Worr. Jest to miejsce, gdzie natura splata się z pradawną magią, a granice między rzeczywistością a światem duchów bywają niezwykle cienkie.
 
+---
+
 ## Początki Mykorii
 
 Mykoria powstała wskutek uderzenia obiektu z kosmosu. Na jej miejscu niegdyś rozciągał się humanoidalny las o nazwie **[wstaw nazwę]**. Kilka wieków temu, zgodnie z legendami, potężny obiekt spadł na środek tego lasu, wyjałowując teren i obniżając go znacznie poniżej pierwotnego poziomu.
 
 W wyniku uderzenia powstała ogromna kotlina, której brzegi wyznaczają nieprzebytych wodospadów otaczających Mykorię. Kraina ta jest przez to odizolowana, a jej granice tworzą naturalną barierę — wodospady opadające w przepaść, które nie pozwalają na swobodne przejście.
 
+---
+
 ## Flora
 Po uderzeniu obiektu w krainę pojawiło się wiele gatunków grzybów, różnej wielkości — od drobnych zarodników po gigantyczne kapelusze. Niektóre z nich mają tajemnicze, niezbadane właściwości.
 
 Roślinność Mykorii jest znacznie większa niż w dawnym Humanoidalnym Lesie. Wzrost roślin zwiększył się od 30% do nawet 250% w porównaniu do pierwotnych rozmiarów.
-
----
 
 ### 1. Mykrost
 <div class="concept-art">
@@ -55,6 +57,8 @@ Osoby, które nigdy wcześniej nie miały kontaktu z Mykrostem, doświadczają s
   <div class="caption">Splątana, pajęczynowata roślina przypominająca jednocześnie liany i sieć pajęczą. Zwisa z wysokich grzybodrzew, tworząc mgiełkę włókien. Są one lepkie i półprzezroczyste, a przy poruszeniu drżą, wydając dźwięk przypominający tkanie nici. Niektóre zwierzęta używają jej do budowy gniazd. Lianasis rośnie tylko tam, gdzie powietrze jest przesycone Mykrostem. Inspiracja: pajęczyny, tilandsje, wiciokrzew, pnącza tropikalne.</div>
 </div>
 
+---
+
 ## Fauna
 
 ### 1. Luminryl
@@ -80,6 +84,8 @@ Osoby, które nigdy wcześniej nie miały kontaktu z Mykrostem, doświadczają s
   <img src="mykoria/Mykareon.png" alt="Mykareon">
   <div class="caption">Latający organizm o kształcie przypominającym meduzę, którego parasolowaty, przezroczysty kapelusz delikatnie świeci bladozielonym światłem. Porusza się po niebie Mykorii, unosząc się na ciepłych prądach powietrza. Gdy zetknie się z innym grzybem lub podobnym organizmem, nagle zyskuje impuls energii, odbija się i przyspiesza lot, rozsiewając wokół siebie pył Mykrostu, który wpływa na dalsze przemiany środowiska. Jest symbolem i czynnikiem ciągłej ewolucji ekosystemu Mykorii.</div>
 </div>
+
+---
 
 
 

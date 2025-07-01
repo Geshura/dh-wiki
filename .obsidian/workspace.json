@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "163121165434a6f9",
+            "id": "a5faf9a270de54c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "1b2d6822383f9c3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "krainy/mykoria.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "mykoria"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,13 +183,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "163121165434a6f9",
+  "active": "1b2d6822383f9c3c",
   "lastOpenFiles": [
+    "index.md",
+    "krainy/mykoria/Luminryl.png",
+    "krainy/mykoria/Hydrathal.png",
+    "krainy/mykoria/Syzmarin.png",
+    "krainy/mykoria/Mykareon.png",
+    "krainy/mykoria/Świetlik w mistycznym lesie.png",
+    "krainy/mykoria/Bioluminescency nad leśnym grzybkiem.png",
+    "krainy/mykoria/Amfibia w mistycznym lesie.png",
+    "krainy/mykoria/Kamuflujące się stworzenie w lesie.png",
+    "krainy/mykoria",
+    "krainy/Nowy folder",
+    "css/conceptart.css",
+    "css/mapa — kopia.css",
+    "krainy/mykoria.md",
     "bg/michal/postac.md",
     "faq/md_faq.md",
     "faq/faq.md",
     "faq/faq_md.md",
-    "index.md",
     "faq/Formatowanie MD (markdown).md",
     "faq",
     "Nowy folder",

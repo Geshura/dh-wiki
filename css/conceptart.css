@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Eveleth';
+  src: url('./fonts/Eveleth-Clean-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.map-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #444;
+  user-select: none;
+  display: inline-block; /* dopasowanie do rozmiaru obrazu */
+}
+
+.map {
+  width: 100%;
+  display: block;
+  height: auto;
+  user-select: none;
+}
+
+.marker {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: radial-gradient(circle at center, #0a74da 0%, #023e8a 80%);
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  box-shadow:
+    0 0 8px rgba(10, 116, 218, 0.8),
+    0 0 20px rgba(2, 62, 138, 0.6),
+    inset 0 0 6px rgba(255, 255, 255, 0.3);
+  animation: pulse 2.5s ease-in-out infinite;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease,
+    border-color 0.3s ease;
+  z-index: 10;
+  font-family: 'Eveleth', sans-serif;
+}
+
+.marker:hover {
+  transform: translate(-50%, -50%) scale(1.5);
+  background: radial-gradient(circle at center, #ffd700 0%, #b8860b 80%);
+  border-color: #ffd700;
+  box-shadow:
+    0 0 18px #ffd700,
+    0 0 36px #b8860b,
+    inset 0 0 10px rgba(255, 255, 255, 0.6);
+  z-index: 15;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 8px rgba(10, 116, 218, 0.8),
+      0 0 20px rgba(2, 62, 138, 0.6),
+      inset 0 0 6px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    box-shadow:
+      0 0 20px rgba(10, 116, 218, 1),
+      0 0 40px rgba(2, 62, 138, 0.9),
+      inset 0 0 12px rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* Napis z title pod kropeczką - zawsze widoczny */
+.marker::after {
+  content: attr(title);
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 3px 10px;
+  font-family: 'Eveleth', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  background: linear-gradient(135deg, #0a74da, #023e8a);
+  color: white;
+  border-radius: 4px;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.9;
+  box-shadow: 0 0 6px rgba(10, 116, 218, 0.7);
+  z-index: 20;
+  transition: opacity 0.3s ease;
+}

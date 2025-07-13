@@ -6,7 +6,7 @@ layout: default
 # Backstory
 
 ## Lata 0–6  
-Urodziłem się w podziemnej kolonii w [Spoiwie](../../index.md). Mimo że nic z tych czasów nie pamiętam, jestem niemal pewien, że nie jestem zwykłą istotą. Jest bardzo mało takich jak ja, którzy zaakceptowali rasę grzyba tak jak ja. Większości się nie udało i już ich nie ma na tym świecie. Rodzice nigdy mi tego nie wyjaśnili, ale gdy obserwowałem ich, wydawali się mieć w sobie trochę człowieka i kozy, a nic z grzyba. To sprawiało, że czułem, że coś zostało w mojej naturze zmienione. Nie sięgam pamięcią tak daleko, ale czuję, że jeśli kiedyś spotkam to miejsce, rozpoznam je. Nie wiem, po co zrobili mi to, co zrobili, ani po co próbowali stworzyć taki gatunek.
+Urodziłem się w podziemnej kolonii w Spoiwie. Mimo że nic z tych czasów nie pamiętam, jestem niemal pewien, że nie jestem zwykłą istotą. Jest bardzo mało takich jak ja, którzy zaakceptowali rasę grzyba tak jak ja. Większości się nie udało i już ich nie ma na tym świecie. Rodzice nigdy mi tego nie wyjaśnili, ale gdy obserwowałem ich, wydawali się mieć w sobie trochę człowieka i kozy, a nic z grzyba. To sprawiało, że czułem, że coś zostało w mojej naturze zmienione. Nie sięgam pamięcią tak daleko, ale czuję, że jeśli kiedyś spotkam to miejsce, rozpoznam je. Nie wiem, po co zrobili mi to, co zrobili, ani po co próbowali stworzyć taki gatunek.
 
 ## Lata 7–12  
 Zacząłem interesować się Mykorią tak bardzo, że niemal zaprzyjaźniłem się z każdym miastem, które ze sobą wojowało. Spoiwo słynęło z ludzi zajmujących się badaniami, więc dostęp do wiedzy był stosunkowo prosty. Sam wychowywałem się w Kalypsie, gdzie ludzie uważali mnie za wybrańca — sądzili, że od zawsze byłem związany z Mykrostem i że tak się urodziłem. Jeśli chodzi o Fungarium, udało mi się zaprzyjaźnić tylko z jednym chłopcem w moim wieku — Drevonem, który był na tzw. „próbie”. Gdy znalazł się w niebezpieczeństwie, usłyszałem w sobie dziwny głos, który powiedział mi, żebym go uratował. Zrobiłem to, choć był z innej wioski. Nie spodziewałem się, że wyniknie z tego przyjaźń.
@@ -46,6 +46,17 @@ Ku mojemu zdziwieniu, nie spotkały mnie konsekwencje włamania. Wręcz przeciwn
 
 Z czasem doszliśmy do porozumienia, że Mykoria została zbadana — przynajmniej na tyle, na ile było to możliwe bez dalszego ryzyka. Grzybnia była tylko jednym z wielu wątków większej sieci. Jeśli chcemy odkryć, czym jest Nysae i kim mogę się stać, pora ruszyć dalej.
 
+### Zahaczki fabularne (okiem Gracza, nie postaci)
+Tutaj napiszę Ci jakbym ja widział rozwój tych wątków. To jest propozycja, znacznie dla mnie naturalniej byłoby iść w tym kierunku, ale oczywiście możesz to pod siebie nagiąć czy pod fabułę.
+
+- Tajemniczy głos Nysae
+Rasa Nysae jest bytem z kosmosu i jest nieśmiertelna na tyle długo, dopóki nie wyda potomka. Nysae będzie próbowała nakłonić moją postać do stosunku i przedłużenia swojego rodu. Plot twist jest taki, że moja postać ma w sobie część charakterystyczną dla rasy Nysae, przez co po wydaniu potomka straci swoją moc. Nysae zginie niedługo po porodzie, a moja postać będzie musiała wychować wspólne dziecko.
+
+- Wyspa Crathalon
+Pod tą wyspą uwięziona jest Nysae albo zamknięta w jakimś laboratorium przez kogoś innego — sam nie wiem, zostawiam obie furtki. Być może ktoś również wykorzystuje ją jako źródło energii.
+
+- Globalne podłączenie grzybni
+To ma służyć jedynie do zbierania encyklopedii flory i fauny. Może też stanowić dopełnienie obrazu katastrofy na Mykorii. Wszystko dlatego, że zwierzęta, które umarły, zostały wchłonięte przez ziemię, a ich dusze zapisane w grzybni. Można zrobić, że trzeba połączyć wszystkie krainy, albo że z czasem historia stanie się na tyle spójna, że będzie wiadomo, co i jak.
 
 
 [⬅️ Wróć do spisu treści](../../index.md)

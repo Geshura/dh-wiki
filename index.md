@@ -39,9 +39,10 @@ layout: default
 ## FAQ
 - [1. Dysk Google (<strong>autor:  Piątek</strong>)](https://drive.google.com/drive/folders/1GFklnDQGFFPF7JOWWfYLlr80uNaEIMYI)
 - [2. Karta Postaci (<strong>autor: Michał, Piątek</strong>)](https://drive.google.com/drive/folders/1LXRA0Y8f1XoNj5zDWEvirX41jlH0Epsw)
-- [3. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/faq/makro.md)
-- [4. FAQ Wikipedia (<strong>autor:  Michał</strong>)](/faq/faq_wikipedia.md)
-- [5. FAQ Obsidian (.md) (<strong>autor:  Macieja</strong>)](/faq/faq_md.md)
+- [3. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/faq/psychologia_postaci.md)
+- [4. Makro roll20 na rzut (<strong>autor: Michał</strong>)](/faq/makro.md)
+- [5. FAQ Wikipedia (<strong>autor:  Michał</strong>)](/faq/faq_wikipedia.md)
+- [6. FAQ Obsidian (.md) (<strong>autor:  Macieja</strong>)](/faq/faq_md.md)
 
 ## Świat
 - [Główny Panteon Bogów (<strong>autor:  Piątek</strong>)](/swiat/glowny_panteon_bogow.md)

@@ -9,4 +9,4 @@ Miejscu, gdzie pradawne opowieści, zakurzone mapy i sekrety minionych czasów s
 
 W skrócie — Daggerheart Wiki to dedykowana encyklopedia i źródło wiedzy o naszym autorskim uniwersum oraz systemie RPG Daggerheart. Znajdziesz tu opisy krain, frakcji, postaci, magii, historii oraz mechanik gry, które pozwolą zarówno nowym, jak i doświadczonym graczom lepiej zrozumieć i zanurzyć się w ten unikalny świat. To miejsce, gdzie każdy fragment lore jest starannie dokumentowany, a społeczność może współtworzyć opowieść o Daggerheart.
 
-[Przejdź do Spisu treści](index.md)
+[⬅️ Wróć do spisu treści](../index.md)

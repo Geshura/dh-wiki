@@ -15,3 +15,5 @@ layout: default
 ```
 
 <link rel="stylesheet" href="{{ '/css/codetag.css' | relative_url }}">
+
+[⬅️ Wróć do spisu treści](../index.md)

@@ -9,10 +9,10 @@ Aby lepiej poznać motywacje, lęki i pragnienia naszych postaci, przygotowałem
 
 ## 1. Czego postać najbardziej się boi fizycznie, o ile czegokolwiek?
 
-**Opis:**  
+<strong>Opis:</strong>  
 To pytanie ma na celu określenie, jakiego rodzaju zagrożenia fizyczne mogą wywołać strach u Twojej postaci. Strachy te mogą wynikać z osobistych doświadczeń lub być bardziej ogólnymi lękami.
 
-**Przykłady:**
+<strong>Przykłady:</strong>
 - Strach przed wężami
 - Lęk przed ciemnością
 - Panika przy widoku krwi
@@ -23,10 +23,10 @@ To pytanie ma na celu określenie, jakiego rodzaju zagrożenia fizyczne mogą wy
 
 ## 2. Czego postać boi się psychologicznie, o ile czegokolwiek?
 
-**Opis:**  
+<strong>Opis:</strong>  
 Tutaj chodzi o emocjonalne lęki, które mogą dotyczyć głównie psychiki Twojej postaci. Może to być obawa przed utratą bliskich, niepowodzeniem w realizacji celów życiowych czy samotnością.
 
-**Przykłady:**
+<strong>Przykłady:</strong>
 - Strach przed samotnością
 - Lęk przed odrzuceniem przez ukochanego/ukochaną
 - Obawa przed porażką w realizacji marzeń
@@ -37,10 +37,10 @@ Tutaj chodzi o emocjonalne lęki, które mogą dotyczyć głównie psychiki Twoj
 
 ## 3. Jak postać odstresowuje się po ciężkim dniu?
 
-**Opis:**  
+<strong>Opis:</strong>  
 Każdy z nas ma swoje sposoby na relaks po ciężkim dniu. Pomyśl, co Twoja postać robi, by się uspokoić i odzyskać równowagę emocjonalną.
 
-**Przykłady:**
+<strong>Przykłady:</strong>
 - Spacer po lesie
 - Picie ulubionego napoju (np. herbaty, piwa)
 - Praca w ogrodzie
@@ -51,10 +51,10 @@ Każdy z nas ma swoje sposoby na relaks po ciężkim dniu. Pomyśl, co Twoja pos
 
 ## 4. Jaki ma typ partnerki/partnera, którego by chciała?
 
-**Opis:**  
+<strong>Opis:</strong>  
 To pytanie ma na celu określenie, jakiego typu osobę postać by pragnęła jako partnera życiowego. Czy preferuje wygląd, charakter, a może jedno i drugie?
 
-**Przykłady:**
+<strong>Przykłady:</strong>
 - Wysoka, ciemnowłosa osoba z poczuciem humoru
 - Spokojna, empatyczna osoba, która rozumie jej emocje
 - Zdecydowana i odważna postać, której można zaufać
@@ -65,10 +65,10 @@ To pytanie ma na celu określenie, jakiego typu osobę postać by pragnęła jak
 
 ## 5. Jaka jest jedna (lub kilka) wada, które postać nie lubi w tym, jak wygląda, jeśli w ogóle coś takiego ma?
 
-**Opis:**  
+<strong>Opis:</strong>  
 Każda postać ma swoje kompleksy lub cechy wyglądu, które jej się nie podobają. To pytanie pozwala zgłębić, co postać może postrzegać jako swoje "defekty" w wyglądzie.
 
-**Przykłady:**
+<strong>Przykłady:</strong>
 - Zbyt wysokie czoło
 - Blizna na twarzy, która przypomina o przeszłości
 - Zbyt drobna budowa ciała
@@ -79,10 +79,10 @@ Każda postać ma swoje kompleksy lub cechy wyglądu, które jej się nie podoba
 
 ## 6. Jaka jest jedna (lub kilka) wada, które postać nie lubi w swoim zachowaniu/charakterze?
 
-**Opis:**  
+<strong>Opis:</strong>  
 Chodzi o cechy charakteru lub zachowania, które Twoja postać stara się poprawić lub których nie akceptuje w sobie.
 
-**Przykłady:**
+<strong>Przykłady:</strong>
 - Nieśmiałość w kontaktach z innymi
 - Nadmierna impulsywność
 - Zbyt duża skłonność do kontrolowania innych
@@ -93,10 +93,10 @@ Chodzi o cechy charakteru lub zachowania, które Twoja postać stara się popraw
 
 ## 7. Z czego postać jest najbardziej dumna?
 
-**Opis:**  
+<strong>Opis:</strong>  
 Co jest źródłem największej dumy Twojej postaci? Może to być osiągnięcie, które miało wpływ na jej życie, zrealizowany cel lub udane przedsięwzięcie.
 
-**Przykłady:**
+<strong>Przykłady:</strong>
 - Ukończenie trudnej misji
 - Pokonanie osobistych słabości
 - Ocalenie życia bliskiej osobie
@@ -107,10 +107,10 @@ Co jest źródłem największej dumy Twojej postaci? Może to być osiągnięcie
 
 ## 8. Jakiego rodzaju jedzenie i picie postać lubi najbardziej?
 
-**Opis:**  
+<strong>Opis:</strong>  
 To pytanie pozwala określić, jakie smaki i napoje cieszą Twoją postać. Może być to coś prostego, jak ulubiona potrawa, lub bardziej wyszukane preferencje kulinarne.
 
-**Przykłady:**
+<strong>Przykłady:</strong>
 - Uwielbia pić ciemne piwo
 - Preferuje pikantne jedzenie
 - Lubi słodkie desery, zwłaszcza ciasta
@@ -119,6 +119,6 @@ To pytanie pozwala określić, jakie smaki i napoje cieszą Twoją postać. Moż
 
 ---
 
-**Uwaga:** Pytania te nie muszą być odpowiedziane przed najbliższą sesją. Odpowiedzcie, kiedy znajdziecie czas. Pytania mogą się zmieniać, w miarę jak nasza wspólna historia będzie się rozwijać, więc warto do nich wrócić, gdyby pojawiły się nowe pytania lub perspektywy.
+<strong>Uwaga:<strong> Pytania te nie muszą być odpowiedziane przed najbliższą sesją. Odpowiedzcie, kiedy znajdziecie czas. Pytania mogą się zmieniać, w miarę jak nasza wspólna historia będzie się rozwijać, więc warto do nich wrócić, gdyby pojawiły się nowe pytania lub perspektywy.
 
 [⬅️ Wróć do spisu treści](../index.md)

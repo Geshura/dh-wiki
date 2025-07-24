@@ -1,11 +1,6 @@
----
-title: Psychologia Postaci
-layout: default
----
-
 # Psychologia Postaci
 
-Aby lepiej poznać motywacje, lęki i pragnienia naszych postaci, przygotowałem zestaw pytań. Odpowiedzi na nie pomogą nie tylko w głbszym wcieleniu się w postać, ale także umożliwią bardziej realistyczne odgrywanie jej reakcji. Kiedy znajdziecie chwilę, proszę odpowiedzcie na poniższe pytania:
+Aby lepiej poznać motywacje, lęki i pragnienia naszych postaci, przygotowałem zestaw pytań. Odpowiedzi na nie pomogą nie tylko w głębszym wcieleniu się w postać, ale także umożliwią bardziej realistyczne odgrywanie jej reakcji. Kiedy znajdziecie chwilę, proszę odpowiedzcie na poniższe pytania:
 
 ## 1. Czego postać najbardziej się boi fizycznie, o ile czegokolwiek?
 
@@ -70,7 +65,7 @@ Każda postać ma swoje kompleksy lub cechy wyglądu, które jej się nie podoba
 ## 6. Jaka jest jedna (lub kilka) wada, które postać nie lubi w swoim zachowaniu/charakterze?
 
 **Opis:**  
-Tutaj chodzi o cechy charakteru lub zachowania, które Twoja postać stara się poprawić lub których nie akceptuje w sobie.
+Chodzi o cechy charakteru lub zachowania, które Twoja postać stara się poprawić lub których nie akceptuje w sobie.
 
 **Przykłady:**
 - Nieśmiałość w kontaktach z innymi
@@ -98,16 +93,7 @@ To pytanie pozwala określić, jakie smaki i napoje cieszą Twoją postać. Moż
 
 **Przykłady:**
 - Uwielbia pić ciemne piwo
-- Ceni sobie dania z grilla
-- Zawsze ma ochotę na ostre jedzenie
-- Lubi słodkie desery, zwłaszcza czekoladę
-- Preferuje wegetariańskie potrawy
-
----
-
-**Uwaga:** Pytania te nie muszą być odpowiedziane przed najbliższą sesją. Odpowiedzcie, kiedy znajdziecie czas. Pytania mogą się zmieniać, w miarę jak nasza wspólna historia będzie się rozwijać, więc warto do nich wrócić, gdyby pojawiły się nowe pytania lub perspektywy.
-
-
-
-
-[⬅️ Wróć do spisu treści](../index.md)
+- Preferuje pikantne jedzenie
+- Lubi słodkie desery, zwłaszcza ciasta
+- Zajada się rybami i owocami morza
+- Pije wyłącznie czarną kawę

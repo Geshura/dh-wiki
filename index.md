@@ -87,7 +87,7 @@ layout: default
 
 
 ## Bohaterowie Gracze
-- [1 (<strong>autor:  Michał</strong>)](/bg/michal/postac.md)
+- [1 (<strong>autor:  Michał</strong> | SPOILER: TYLKO DLA MG)](/bg/michal/postac.md)
 - [2 (<strong>autor:  Macieja</strong>)](/bg/macieja/postac.md)
 - [3 (<strong>autor:  Tomek</strong>)](/bg/tomek/postac.md)
 - [4 (<strong>autor:  Krystian</strong>)](/bg/krystian/postac.md)

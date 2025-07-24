@@ -74,7 +74,7 @@ layout: default
 - [Kasamok (<strong>autor: Piątek</strong>)](/krainy/kasamok.md)
 - [Kerschal'Worr (<strong>autor: Michał</strong>)](/krainy/kerschal_worr.md)
 - [Lautus (<strong>autor: Piątek</strong>)](/krainy/lautus.md)
-- [Mykoria (<strong>autor: Michał</strong>)](/krainy/mykoria.md)
+- [Mykoria (<strong>autor: Michał</strong>)](/krainy/mykoria/mykoria.md)
 - [Pasmo (<strong>autor: ???</strong>)](/krainy/pasmo.md)
 - [Solmera (<strong>autor: Krystian</strong>)](/krainy/solmera.md)
 - [Solitas (<strong>autor: Piątek</strong>)](/krainy/solitas.md)

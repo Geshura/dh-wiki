@@ -1,3 +1,8 @@
+---
+title: Psychologia Postaci
+layout: default
+---
+
 # Psychologia Postaci
 
 Aby lepiej poznać motywacje, lęki i pragnienia naszych postaci, przygotowałem zestaw pytań. Odpowiedzi na nie pomogą nie tylko w głębszym wcieleniu się w postać, ale także umożliwią bardziej realistyczne odgrywanie jej reakcji. Kiedy znajdziecie chwilę, proszę odpowiedzcie na poniższe pytania:
@@ -14,6 +19,8 @@ To pytanie ma na celu określenie, jakiego rodzaju zagrożenia fizyczne mogą wy
 - Strach przed wysokościami
 - Lęk przed wodą lub nurkowaniem
 
+---
+
 ## 2. Czego postać boi się psychologicznie, o ile czegokolwiek?
 
 **Opis:**  
@@ -25,6 +32,8 @@ Tutaj chodzi o emocjonalne lęki, które mogą dotyczyć głównie psychiki Twoj
 - Obawa przed porażką w realizacji marzeń
 - Strach przed nieakceptowaniem przez grupę
 - Lęk przed utratą kontroli nad sobą
+
+---
 
 ## 3. Jak postać odstresowuje się po ciężkim dniu?
 
@@ -38,6 +47,8 @@ Każdy z nas ma swoje sposoby na relaks po ciężkim dniu. Pomyśl, co Twoja pos
 - Granie na instrumencie
 - Medytacja lub modlitwa
 
+---
+
 ## 4. Jaki ma typ partnerki/partnera, którego by chciała?
 
 **Opis:**  
@@ -49,6 +60,8 @@ To pytanie ma na celu określenie, jakiego typu osobę postać by pragnęła jak
 - Zdecydowana i odważna postać, której można zaufać
 - Osoba o silnym charakterze, z którą można dzielić pasje i cele
 - Partner, który jest w stanie poświęcić się i chronić jej w trudnych chwilach
+
+---
 
 ## 5. Jaka jest jedna (lub kilka) wada, które postać nie lubi w tym, jak wygląda, jeśli w ogóle coś takiego ma?
 
@@ -62,6 +75,8 @@ Każda postać ma swoje kompleksy lub cechy wyglądu, które jej się nie podoba
 - Zbyt małe lub za duże uszy
 - Niedoskonała skóra
 
+---
+
 ## 6. Jaka jest jedna (lub kilka) wada, które postać nie lubi w swoim zachowaniu/charakterze?
 
 **Opis:**  
@@ -73,6 +88,8 @@ Chodzi o cechy charakteru lub zachowania, które Twoja postać stara się popraw
 - Zbyt duża skłonność do kontrolowania innych
 - Lęk przed wyrażaniem swoich uczuć
 - Prokrastynacja i odkładanie rzeczy na później
+
+---
 
 ## 7. Z czego postać jest najbardziej dumna?
 
@@ -86,6 +103,8 @@ Co jest źródłem największej dumy Twojej postaci? Może to być osiągnięcie
 - Osiągnięcie prestiżowej pozycji w społeczeństwie
 - Wybór moralny, który okazał się słuszny
 
+---
+
 ## 8. Jakiego rodzaju jedzenie i picie postać lubi najbardziej?
 
 **Opis:**  
@@ -97,3 +116,9 @@ To pytanie pozwala określić, jakie smaki i napoje cieszą Twoją postać. Moż
 - Lubi słodkie desery, zwłaszcza ciasta
 - Zajada się rybami i owocami morza
 - Pije wyłącznie czarną kawę
+
+---
+
+**Uwaga:** Pytania te nie muszą być odpowiedziane przed najbliższą sesją. Odpowiedzcie, kiedy znajdziecie czas. Pytania mogą się zmieniać, w miarę jak nasza wspólna historia będzie się rozwijać, więc warto do nich wrócić, gdyby pojawiły się nowe pytania lub perspektywy.
+
+[⬅️ Wróć do spisu treści](../index.md)

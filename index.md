@@ -3,7 +3,7 @@ title: Spis treści
 layout: default
 ---
 
-# Mapa testtu
+# Mapa testtu fghjfghjfrgth
 <div class="map-container">
 	<img src="imgs/mapa.jpg" alt="Mapa" class="map" />
 	<!-- Przykładowe markery -->

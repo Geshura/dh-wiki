@@ -92,3 +92,4 @@ layout: default
 - [2 (<strong>autor:  Macieja</strong>)](/bg/macieja/postac.md)
 - [3 (<strong>autor:  Tomek</strong>)](/bg/tomek/postac.md)
 - [4 (<strong>autor:  Krystian</strong>)](/bg/krystian/postac.md)
+- [5 (<strong>autor:  Adi</strong>)](/bg/adi/postac.md)

@@ -3,7 +3,6 @@ title: Spis treści
 layout: default
 ---
 
-# Mapa testtu fghjfghjfrgth
 <div class="map-container">
 	<img src="_assets/imgs/mapa.jpg" alt="Mapa" class="map" />
 	<!-- Przykładowe markery -->
@@ -87,9 +86,5 @@ layout: default
 - [Wolny Ląd (<strong>autor: Piątek</strong>)](/krainy/wolny_lad/wolny_lad.md)
 
 
-## Bohaterowie Gracze
+## Postacie
 - [1 (<strong>autor:  Michał</strong> | SPOILER: TYLKO DLA MG)](/bg/michal/postac.md)
-- [2 (<strong>autor:  Macieja</strong>)](/bg/macieja/postac.md)
-- [3 (<strong>autor:  Tomek</strong>)](/bg/tomek/postac.md)
-- [4 (<strong>autor:  Krystian</strong>)](/bg/krystian/postac.md)
-- [5 (<strong>autor:  Adi</strong>)](/bg/adi/postac.md)

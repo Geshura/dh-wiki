@@ -3,6 +3,10 @@ title: Spis treści
 layout: default
 ---
 
+<<<<<<< HEAD
+=======
+# Mapa testtu
+>>>>>>> parent of d00fec9 (Merge branch 'main' of https://github.com/Geshura/dh-wiki)
 <div class="map-container">
 	<img src="_assets/imgs/mapa.jpg" alt="Mapa" class="map" />
 	<!-- Przykładowe markery -->

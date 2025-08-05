@@ -89,3 +89,7 @@ layout: default
 
 ## Postacie
 - [1 (<strong>autor:  Michał</strong> | SPOILER: TYLKO DLA MG)](/bg/michal/postac.md)
+- [Karme (<strong>autor: Piątek</strong>)](/postacie/karme/karme.md)
+- [Nemres (<strong>autor: Piątek</strong>)](/postacie/nemres/nemres.md)
+- [Taurelia Vaxen (<strong>autor: Piątek</strong>)](/postacie/taurelia_vaxen/taurelia_vaxen.md)
+- [Zyzyz (<strong>autor: Krystian, Piątek</strong>)](/postacie/zyzyz/zyzyz.md)
